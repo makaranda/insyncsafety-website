@@ -1,0 +1,26 @@
+[class*=dark] h1 a, [class*=dark] h2 a, [class*=dark] h3 a, [class*=dark] h4 a, [class*=dark] h5 a, [class*=dark] h6 a {
+    color: #1d4c68;
+}
+
+[class*=dark] ul.list1 {
+    color: #1d4c68;
+}
+
+[class*=dark] h1, [class*=dark] h2, [class*=dark] h3, [class*=dark] h4, [class*=dark] h5, [class*=dark] h6 {
+    color: #1d4c68;
+}
+[class*=dark] .grey {
+    color: #1d4c68;
+}
+[class*=dark] #isotope_filters a, [class*=dark] .filters a {
+    color: #1d4c68;
+    border-color: #1d4c68;
+}
+#mainslider h3 {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin: 0 0 2px;
+    padding: 0 0 2px;
+    font-weight: 300;
+    color: #fff !important;
+}
