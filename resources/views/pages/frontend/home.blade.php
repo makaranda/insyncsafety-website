@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <section id="mainslider" class="darkgrey_section action_section">
     <div class="flexslider">
         <ul class="slides">
@@ -48,56 +49,56 @@
             </li>
         </ul>
     </div>
+</section>
 
+<section id="features" class="light_section">
+    <div class="container-fluid">
 
-    <section id="features" class="light_section">
-        <div class="container-fluid">
-
-            <div class="row">
-                <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-                    <div class="square_teaser">
-                        <i class="rt-icon-user3"></i>
-                        <h4>
-                            <a href="#"><strong>Easy</strong> Consultation</a>
-                        </h4>
-                        <p>Get expert advice on safety products tailored to your specific industry needs.</p>
-                    </div>
+        <div class="row">
+            <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
+                <div class="square_teaser">
+                    <i class="rt-icon-user3"></i>
+                    <h4>
+                        <a href="#"><strong>Easy</strong> Consultation</a>
+                    </h4>
+                    <p>Get expert advice on safety products tailored to your specific industry needs.</p>
                 </div>
+            </div>
 
-                <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-                    <div class="square_teaser">
-                        <i class="rt-icon-cog"></i>
-                        <h4>
-                            <a href="#"><strong>Quality</strong> Assurance</a>
-                        </h4>
-                        <p>Our products meet rigorous local and international safety standards.</p>
-                    </div>
+            <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
+                <div class="square_teaser">
+                    <i class="rt-icon-cog"></i>
+                    <h4>
+                        <a href="#"><strong>Quality</strong> Assurance</a>
+                    </h4>
+                    <p>Our products meet rigorous local and international safety standards.</p>
                 </div>
+            </div>
 
-                <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-                    <div class="square_teaser">
-                        <i class="rt-icon-support"></i>
-                        <h4>
-                            <a href="#"><strong>Reliable</strong> Support</a>
-                        </h4>
-                        <p>24/7 customer service to help you with product information and technical support.</p>
-                    </div>
+            <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
+                <div class="square_teaser">
+                    <i class="rt-icon-support"></i>
+                    <h4>
+                        <a href="#"><strong>Reliable</strong> Support</a>
+                    </h4>
+                    <p>24/7 customer service to help you with product information and technical support.</p>
                 </div>
+            </div>
 
-                <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-                    <div class="square_teaser">
-                        <i class="rt-icon-star"></i>
-                        <h4>
-                            <a href="#"><strong>Expert</strong> Guidance</a>
-                        </h4>
-                        <p>Benefit from our industry expertise to enhance workplace safety efficiently.</p>
-                    </div>
+            <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
+                <div class="square_teaser">
+                    <i class="rt-icon-star"></i>
+                    <h4>
+                        <a href="#"><strong>Expert</strong> Guidance</a>
+                    </h4>
+                    <p>Benefit from our industry expertise to enhance workplace safety efficiently.</p>
                 </div>
-
             </div>
 
         </div>
-    </section>
+
+    </div>
+</section>
 
 <section class="grey_section bg_image table_section">
     <div id="team_carousel">
@@ -195,7 +196,7 @@
                 <div id="isotope_container" class="isotope row masonry-layout to_animate">
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 webdesign photography">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/01.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide02-1.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/01.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
@@ -209,7 +210,7 @@
 
                     <div class="isotope-item gallery-item col-lg-6 col-md-6 col-sm-6 photography webdesign">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/02.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide01.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/02.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
@@ -235,7 +236,7 @@
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 development">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/03.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide02.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/03.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
@@ -249,7 +250,7 @@
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 development">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/04.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide01.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/04.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
@@ -263,7 +264,7 @@
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 webdesign">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/05.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide02.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/05.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
@@ -277,7 +278,7 @@
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 photography">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/06.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide02.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/06.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
@@ -291,7 +292,7 @@
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 development programming">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/07.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide03.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/07.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
@@ -305,7 +306,7 @@
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 programming">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/08.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/INHERENT FLAME RETARDANT.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/08.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
@@ -319,7 +320,7 @@
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 programming">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/12.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/HEAT PROTECTION SOLUTIONS.png') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/12.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
@@ -362,7 +363,7 @@
                     <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
                         <article class="post format-standard blog-grid">
                             <div class="entry-thumbnail">
-                                <img alt="" src="example/gallery/01.jpg">
+                                <img alt="" src="{{ url('public/assets/example/RESCUE FROM HEIGHT SOLUTIONS.png') }}">
                             </div>
                             <div class="post-content">
                                 <h3 class="entry-title-small">
@@ -382,7 +383,7 @@
                     <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
                         <article class="post format-standard blog-grid">
                             <div class="entry-thumbnail">
-                                <img alt="" src="example/gallery/02.jpg">
+                                <img alt="" src="{{ url('public/assets/example/INHERENT FLAME RETARDANT.jpg') }}">
                             </div>
                             <div class="post-content">
                                 <h3 class="entry-title-small">
@@ -402,7 +403,7 @@
                     <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
                         <article class="post format-standard blog-grid">
                             <div class="entry-thumbnail">
-                                <img alt="" src="example/gallery/03.jpg">
+                                <img alt="" src="{{ url('public/assets/example/HEAT PROTECTION SOLUTIONS.png') }}">
                             </div>
                             <div class="post-content">
                                 <h3 class="entry-title-small">
@@ -422,7 +423,7 @@
                     <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
                         <article class="post format-standard blog-grid">
                             <div class="entry-thumbnail">
-                                <img alt="" src="example/gallery/04.jpg">
+                                <img alt="" src="{{ url('public/assets/example/CUT PROTECTION SOLUTIONS.jpg') }}">
                             </div>
                             <div class="post-content">
                                 <h3 class="entry-title-small">
@@ -442,7 +443,7 @@
                     <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
                         <article class="post format-standard blog-grid">
                             <div class="entry-thumbnail">
-                                <img alt="" src="example/gallery/05.jpg">
+                                <img alt="" src="{{ url('public/assets/example/ARC FLASH PROTECTION.jpg') }}">
                             </div>
                             <div class="post-content">
                                 <h3 class="entry-title-small">
@@ -462,7 +463,7 @@
                     <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
                         <article class="post format-standard blog-grid">
                             <div class="entry-thumbnail">
-                                <img alt="" src="example/gallery/06.jpg">
+                                <img alt="" src="{{ url('public/assets/example/HEIGHT ACCESS SOLUTIONS.jpg') }}">
                             </div>
                             <div class="post-content">
                                 <h3 class="entry-title-small">
@@ -482,7 +483,7 @@
                     <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
                         <article class="post format-standard blog-grid">
                             <div class="entry-thumbnail">
-                                <img alt="" src="example/gallery/07.jpg">
+                                <img alt="" src="{{ url('public/assets/example/CRYOCOLD PROTECTION.png') }}">
                             </div>
                             <div class="post-content">
                                 <h3 class="entry-title-small">
@@ -507,7 +508,7 @@
 
 
 
-<section id="progress" class="dark_section parallax">
+<section id="progress" class="dark_section parallax statistics-section">
     <div class="container">
 
         <div class="side_teaser table_section to_animate" data-animation="stretchRight">
@@ -850,136 +851,161 @@
 @endsection
 
 @push('css')
+
     <style>
 
-/* Main section styling */
-.light_section {
-  padding: 4rem 0;
-  background: #fff;
-}
+        /* Main section styling */
+        .light_section {
+        padding: 4rem 0;
+        background: #fff;
+        }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+        .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        }
 
-/* Grid layout fixes */
-#isotope_container.isotope.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
-  width: calc(100% + 30px);
-}
+        /* Grid layout fixes */
+        #isotope_container.isotope.row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+        width: calc(100% + 30px);
+        }
 
-.isotope-item-blog {
-  padding: 15px;
-  width: 33.333%;
-}
+        .isotope-item-blog {
+        padding: 15px;
+        width: 33.333%;
+        }
 
-/* Blog post card styling */
-.post.format-standard.blog-grid {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  overflow: hidden;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0 !important;
-}
+        /* Blog post card styling */
+        .post.format-standard.blog-grid {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0 !important;
+        }
 
-.post-content h3.entry-title-small a {
-    color: white !important;
-}
+        .post-content h3.entry-title-small a {
+            color: white !important;
+        }
 
-/* Image container */
-.entry-thumbnail {
-  position: relative;
-  padding-top: 66.67%;
-  overflow: hidden;
-}
+        /* Image container */
+        .entry-thumbnail {
+        position: relative;
+        padding-top: 66.67%;
+        overflow: hidden;
+        }
 
-.entry-thumbnail img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+        .entry-thumbnail img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
 
-/* Content area */
-.post-content {
-  padding: 1.5rem;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
+        /* Content area */
+        .post-content {
+        padding: 1.5rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        }
 
-.entry-title-small {
-  margin: 0 0 1rem;
-}
+        .entry-title-small {
+        margin: 0 0 1rem;
+        }
 
-.entry-title-small a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1.25rem;
-  font-weight: 600;
-  transition: color 0.2s;
-}
+        .entry-title-small a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.25rem;
+        font-weight: 600;
+        transition: color 0.2s;
+        }
 
-.entry-title-small a:hover {
-  color: #e84855;
-}
+        .entry-title-small a:hover {
+        color: #e84855;
+        }
 
-.entry-content {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
+        .entry-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        }
 
-.entry-content p {
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-  flex-grow: 1;
-}
+        .entry-content p {
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 1.5rem;
+        line-height: 1.6;
+        flex-grow: 1;
+        }
 
-.entry-content p:last-child {
-  margin-bottom: 0;
-  margin-top: auto;
-}
+        .entry-content p:last-child {
+        margin-bottom: 0;
+        margin-top: auto;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 991px) {
+            .isotope-item {
+                width: 50%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .isotope-item {
+                width: 100%;
+            }
+
+            .container {
+                padding: 0 20px;
+            }
+
+            .post-content {
+                padding: 1.25rem;
+            }
+        }
+
+        /* Dark theme background for cards */
+        .post.format-standard.blog-grid {
+            background: linear-gradient(135deg, #1e3d59, #2b5278);
+        }
 
 
+        /* the main slider style */
+        h3.counter.counted.animated.fadeInUp {
+            color: white;
+        }
 
-/* Responsive adjustments */
-@media (max-width: 991px) {
-  .isotope-item {
-    width: 50%;
-  }
-}
+        h4.text-md-right {
+            color: white !important;
+        }
 
-@media (max-width: 767px) {
-  .isotope-item {
-    width: 100%;
-  }
+        .statistics-section p,.statistics-section h4 {
+            color: white !important;
+        }
 
-  .container {
-    padding: 0 20px;
-  }
+        .flexslider .slides img{
+            filter: brightness(0.7) !important;
+        }
 
-  .post-content {
-    padding: 1.25rem;
-  }
-}
-
-/* Dark theme background for cards */
-.post.format-standard.blog-grid {
-  background: linear-gradient(135deg, #1e3d59, #2b5278);
-}
-
+        @media (min-width: 1024px) {
+            .flexslider .slides img {
+                height: 80vh !important;
+                object-fit: cover !important;
+                background-size: cover !important;
+            }
+        }
     </style>
+
 @endpush
 
 @push('scripts')
