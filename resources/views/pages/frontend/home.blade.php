@@ -353,98 +353,158 @@
     </div>
 </section>
 
-<section id="services" class="light_section action_section parallax">
+<section id="middle" class="light_section blog-grid">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 to_animate">
-                <h2>Check Our</h2>
-                <h2 class="section_header big">
-                    <span class="highlight">
-                        <strong>Services</strong>
-                    </span>
-                </h2>
+            <div class="col-sm-12">
 
-                <div class="side_teaser_small media" data-animation="fadeInLeft">
-                    <div class="media-left">
-                        <i class="rt-icon-rescue highlight"></i>
+                <div id="isotope_container" class="isotope row masonry-layout">
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="example/gallery/01.jpg">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Rescue from Height Solutions</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Offering advanced equipment and training to ensure safety during high-altitude rescues, tailored to industrial and emergency settings.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">
-                            <a href="#"><strong>Rescue</strong> Solutions</a>
-                        </h3>
-                        <p>Height rescue services, tailored for complex workplace safety needs.</p>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="example/gallery/02.jpg">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Inherent Flame Retardant</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Our flame-resistant products are designed for high-heat environments, ensuring worker safety without compromising comfort.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="example/gallery/03.jpg">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Heat Protection Solutions</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Protective gear designed to withstand high temperatures, offering reliable safety for workers in extreme heat environments.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="example/gallery/04.jpg">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Cut Protection Solutions</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Cut-resistant gloves and apparel to protect workers handling sharp tools or materials, enhancing workplace safety.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="example/gallery/05.jpg">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Arc Flash Protection</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Specialized PPE to safeguard against arc flash incidents, protecting against severe electrical hazards.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="example/gallery/06.jpg">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Height Access Solutions</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Comprehensive solutions for safe access to high areas, including ladders, scaffolding, and fall protection systems.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="example/gallery/07.jpg">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Cryo/Cold Protection</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Insulated gear to protect workers in extremely cold environments, ideal for handling frozen or cryogenic materials.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
-                <div class="side_teaser_small media" data-animation="fadeInLeft">
-                    <div class="media-left">
-                        <i class="fa fa-fire-extinguisher highlight"></i>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">
-                            <a href="#"><strong>Flame</strong> Retardant</a>
-                        </h3>
-                        <p>Inherent flame-retardant solutions for high-risk work environments.</p>
-                    </div>
-                </div>
-                <div class="side_teaser_small media" data-animation="fadeInLeft">
-                    <div class="media-left">
-                        <i class="rt-icon-thermometer highlight"></i>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">
-                            <a href="#"><strong>Heat</strong> Protection</a>
-                        </h3>
-                        <p>Heat-resistant solutions ensuring safety in extreme conditions.</p>
-                    </div>
-                </div>
-                <div class="side_teaser_small media" data-animation="fadeInLeft">
-                    <div class="media-left">
-                        <i class="rt-icon-scissors highlight"></i>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">
-                            <a href="#"><strong>Cut</strong> Protection</a>
-                        </h3>
-                        <p>Durable cut protection gear tailored to industrial needs.</p>
-                    </div>
-                </div>
-                <div class="side_teaser_small media" data-animation="fadeInLeft">
-                    <div class="media-left">
-                        <i class="fa fa-bolt highlight"></i>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">
-                            <a href="#"><strong>Arc Flash</strong> Protection</a>
-                        </h3>
-                        <p>Specialized gear for arc flash protection in electrical settings.</p>
-                    </div>
-                </div>
-                <div class="side_teaser_small media" data-animation="fadeInLeft">
-                    <div class="media-left">
-                        <i class="rt-icon-ladder highlight"></i>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">
-                            <a href="#"><strong>Height</strong> Access</a>
-                        </h3>
-                        <p>Safe height access solutions for high-elevation tasks.</p>
-                    </div>
-                </div>
-                <div class="side_teaser_small media" data-animation="fadeInLeft">
-                    <div class="media-left">
-                        <i class="rt-icon-snowflake highlight"></i>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">
-                            <a href="#"><strong>Cold</strong> Protection</a>
-                        </h3>
-                        <p>Cold and cryo protection for sub-zero working environments.</p>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
 </section>
+
 
 
 <section id="progress" class="dark_section parallax">
@@ -791,6 +851,133 @@
 
 @push('css')
     <style>
+
+/* Main section styling */
+.light_section {
+  padding: 4rem 0;
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Grid layout fixes */
+#isotope_container.isotope.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  width: calc(100% + 30px);
+}
+
+.isotope-item-blog {
+  padding: 15px;
+  width: 33.333%;
+}
+
+/* Blog post card styling */
+.post.format-standard.blog-grid {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 !important;
+}
+
+.post-content h3.entry-title-small a {
+    color: white !important;
+}
+
+/* Image container */
+.entry-thumbnail {
+  position: relative;
+  padding-top: 66.67%;
+  overflow: hidden;
+}
+
+.entry-thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content area */
+.post-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.entry-title-small {
+  margin: 0 0 1rem;
+}
+
+.entry-title-small a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.entry-title-small a:hover {
+  color: #e84855;
+}
+
+.entry-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.entry-content p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.entry-content p:last-child {
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .isotope-item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .isotope-item {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .post-content {
+    padding: 1.25rem;
+  }
+}
+
+/* Dark theme background for cards */
+.post.format-standard.blog-grid {
+  background: linear-gradient(135deg, #1e3d59, #2b5278);
+}
 
     </style>
 @endpush
