@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\frontend\PagesController;
+use App\Http\Controllers\frontend\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +18,8 @@ use App\Http\Controllers\frontend\PagesController;
 //     return view('welcome');
 // });
 
-Route::get('/',[PagesController::class, 'commingsoon'])->name('pages.commingsoon');
-Route::get('/home',[PagesController::class, 'index'])->name('pages.home');
+// Route for the coming soon page with both GET and POST methods
+Route::match(['get', 'post'], '/', [HomeController::class, 'comingSoon'])->name('pages.comingsoon');
+
+// Route for the home page with GET method only
+Route::get('/home', [HomeController::class, 'index'])->name('pages.home');

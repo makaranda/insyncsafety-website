@@ -24,3 +24,12 @@
     font-weight: 300;
     color: #fff !important;
 }
+
+.tgl-hide-defult{
+    display: none;
+}
+
+.team-item-description h3{
+    color: #dc3545 !important;
+
+}

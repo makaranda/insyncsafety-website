@@ -8,15 +8,13 @@
                 <img src="{{ url('public/assets/example/slide01.jpg') }}" alt="">
                 <div class="slide_description_wrapper">
                     <div class="slide_description">
-                        <p data-animation="fadeInLeft">Meriada Pro Presents:</p>
-
+                        <p data-animation="fadeInLeft">Comprehensive Safety Solutions:</p>
                         <h3 data-animation="fadeInLeft">
                             <strong>
-                                <span class="highlight">Everything</span> You
-                            </strong> Need<br>
+                                <span class="highlight">Providing innovative solutions to protect your </span> workforce
+                            </strong> and environment.<br>
                             Unique <strong>&amp; Flexible</strong>
                         </h3>
-
                     </div>
                 </div>
             </li>
@@ -24,15 +22,13 @@
                 <img src="{{ url('public/assets/example/slide02.jpg') }}" alt="">
                 <div class="slide_description_wrapper">
                     <div class="slide_description">
-                        <p data-animation="expandUp">Meriada Pro Presents:</p>
-
+                        <p data-animation="fadeInLeft">Quality You Can Trust:</p>
                         <h3 data-animation="fadeInLeft">
                             <strong>
-                                <span class="highlight">We</span> Generate
-                            </strong> Most<br>
-                            Creative <strong> Ideas</strong>
+                                <span class="highlight">High-quality safety equipment meeting </span> global standards
+                            </strong> for every industry.<br>
+                            Reliable <strong>&amp; Durable</strong>
                         </h3>
-
                     </div>
                 </div>
             </li>
@@ -40,15 +36,13 @@
                 <img src="{{ url('public/assets/example/slide03.jpg') }}" alt="">
                 <div class="slide_description_wrapper">
                     <div class="slide_description">
-                        <p data-animation="expandUp">Meriada Pro Presents:</p>
-
+                        <p data-animation="fadeInLeft">Empowering Safer Workplaces:</p>
                         <h3 data-animation="fadeInLeft">
                             <strong>
-                                <span class="highlight">Innovate</span> Template
-                            </strong> Most<br>
-                            Designed <strong> with</strong> Love
+                                <span class="highlight">Comprehensive solutions from PPE to </span> environmental safety
+                            </strong> for all sectors.<br>
+                            Complete <strong>&amp; Effective</strong>
                         </h3>
-
                     </div>
                 </div>
             </li>
@@ -61,55 +55,43 @@
 
             <div class="row">
                 <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-
                     <div class="square_teaser">
                         <i class="rt-icon-user3"></i>
                         <h4>
-                            <a href="#"><strong>Easy</strong> Customize</a>
+                            <a href="#"><strong>Easy</strong> Consultation</a>
                         </h4>
-                        <p>Duiautem eumre dolor hendrerit <br>
-                            vulputate velit esse molestie.</p>
+                        <p>Get expert advice on safety products tailored to your specific industry needs.</p>
                     </div>
-
                 </div>
 
                 <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-
                     <div class="square_teaser">
-                        <i class="rt-icon-bulb"></i>
+                        <i class="rt-icon-cog"></i>
                         <h4>
-                            <a href="#"><strong>Unique</strong> Design</a>
+                            <a href="#"><strong>Quality</strong> Assurance</a>
                         </h4>
-                        <p>Consequat, vel illum dolore eu feugiat<br>
-                         nulla facilisis at vero.</p>
+                        <p>Our products meet rigorous local and international safety standards.</p>
                     </div>
-
                 </div>
 
                 <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-
                     <div class="square_teaser">
-                        <i class="rt-icon-wallet"></i>
+                        <i class="rt-icon-support"></i>
                         <h4>
-                            <a href="#"><strong>Retina</strong> Ready</a>
+                            <a href="#"><strong>Reliable</strong> Support</a>
                         </h4>
-                        <p>Eros et accumsusto odio dignissim qui <br>
-                         blandit praesent.</p>
+                        <p>24/7 customer service to help you with product information and technical support.</p>
                     </div>
-
                 </div>
 
                 <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-
                     <div class="square_teaser">
-                        <i class="rt-icon-wallet"></i>
+                        <i class="rt-icon-star"></i>
                         <h4>
-                            <a href="#"><strong>24/7</strong> Support</a>
+                            <a href="#"><strong>Expert</strong> Guidance</a>
                         </h4>
-                        <p>Eros et accumsusto odio dignissim qui <br>
-                            blandit praesent.</p>
+                        <p>Benefit from our industry expertise to enhance workplace safety efficiently.</p>
                     </div>
-
                 </div>
 
             </div>
@@ -204,10 +186,10 @@
 
                 <div id="isotope_filters">
                     <a href="#" data-filter="*" class="selected">Show All</a>
-                    <a href="#" data-filter=".webdesign">Web Design</a>
-                    <a href="#" data-filter=".development">Development</a>
-                    <a href="#" data-filter=".photography">Photography</a>
-                    <a href="#" data-filter=".programming">Programming</a>
+                    <a href="#" data-filter=".webdesign">Safety Gear</a>
+                    <a href="#" data-filter=".development">Research</a>
+                    <a href="#" data-filter=".photography">Our Team</a>
+                    <a href="#" data-filter=".programming">Projects</a>
                 </div>
 
                 <div id="isotope_container" class="isotope row masonry-layout to_animate">
@@ -220,8 +202,8 @@
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
+                            <h3><a href="gallery-single.html">Safety at Heights</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Equipment</a>, <a href="portfolio.html">Protective Gear</a></p>
                         </div>
                     </div>
 
@@ -239,17 +221,15 @@
                             </a>
                             <div class="display_table_cell big-item-description">
                                 <h3>
-                                    <a href="gallery-single.html">Young female passenger</a>
+                                    <a href="gallery-single.html">Employee Training</a>
                                 </h3>
-                                <p>Lorem ipsudolor consetetur sadipscing elitr sed diam nonumy tempor...</p>
+                                <p>Expert-led training sessions ensure safe practices in all environments...</p>
                             </div>
                             <div class="display_table_cell big-item-social">
                                 <a class="socialico-facebook" href="#" title="Facebook" data-toggle="tooltip">#</a>
                                 <a class="socialico-twitter" href="#" title="Twitter" data-toggle="tooltip">#</a>
                                 <a class="socialico-google" href="#" title="Google" data-toggle="tooltip">#</a>
                             </div>
-
-
                         </div>
                     </div>
 
@@ -262,9 +242,8 @@
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Environmental Protection</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Services</a>, <a href="portfolio.html">Solutions</a></p>
                         </div>
                     </div>
 
@@ -277,9 +256,8 @@
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Quality Assurance</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Service</a>, <a href="portfolio.html">Safety</a></p>
                         </div>
                     </div>
 
@@ -292,9 +270,8 @@
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Safety Gear</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Products</a>, <a href="portfolio.html">Protection</a></p>
                         </div>
                     </div>
 
@@ -307,9 +284,8 @@
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Protective Helmets</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Headgear</a>, <a href="portfolio.html">Safety</a></p>
                         </div>
                     </div>
 
@@ -322,9 +298,8 @@
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Lifeline Solutions</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Fall</a>, <a href="portfolio.html">Protection</a></p>
                         </div>
                     </div>
 
@@ -337,9 +312,8 @@
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Emergency Gear</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Response</a>, <a href="portfolio.html">Equipment</a></p>
                         </div>
                     </div>
 
@@ -352,11 +326,11 @@
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Spill Control</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Containment</a>, <a href="portfolio.html">Solutions</a></p>
                         </div>
                     </div>
+
 
                 </div>
             </div>
@@ -368,11 +342,11 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8 to_animate" data-animation="pullDown">
-                <h3><strong>Like this theme?</strong> Get your copy of this great theme now!</h3>
+                <h3><strong>Do You Like Us?</strong> Contact us today for an evaluation!</h3>
             </div>
             <div class="col-sm-4 to_animate" data-animation="pullDown">
-                <a href="#" class="theme_button inverse">View Features</a>
-                <a href="#" class="theme_button">Buy This Theme</a>
+                <a href="#" class="theme_button inverse">Call Now</a>
+                <a href="#" class="theme_button">Contact From</a>
             </div>
 
         </div>
@@ -382,8 +356,6 @@
 <section id="services" class="light_section action_section parallax">
     <div class="container">
         <div class="row">
-
-
             <div class="col-md-5 to_animate">
                 <h2>Check Our</h2>
                 <h2 class="section_header big">
@@ -394,43 +366,86 @@
 
                 <div class="side_teaser_small media" data-animation="fadeInLeft">
                     <div class="media-left">
-                        <i class="rt-icon-pen2 highlight"></i>
+                        <i class="rt-icon-rescue highlight"></i>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">
-                            <a href="#"><strong>Web</strong> Design</a>
+                            <a href="#"><strong>Rescue</strong> Solutions</a>
                         </h3>
-                        <p>Consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                        <p>Height rescue services, tailored for complex workplace safety needs.</p>
                     </div>
                 </div>
                 <div class="side_teaser_small media" data-animation="fadeInLeft">
                     <div class="media-left">
-                        <i class="fa fa-code highlight"></i>
+                        <i class="fa fa-fire-extinguisher highlight"></i>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">
-                            <a href="#"><strong>Pure</strong> Code</a>
+                            <a href="#"><strong>Flame</strong> Retardant</a>
                         </h3>
-                        <p>Tempor invidunt ut labore et dolore magna</p>
+                        <p>Inherent flame-retardant solutions for high-risk work environments.</p>
                     </div>
                 </div>
                 <div class="side_teaser_small media" data-animation="fadeInLeft">
                     <div class="media-left">
-                        <i class="rt-icon-lab2 highlight"></i>
+                        <i class="rt-icon-thermometer highlight"></i>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">
-                            <a href="#"><strong>CEO</strong> Research</a>
+                            <a href="#"><strong>Heat</strong> Protection</a>
                         </h3>
-                        <p>At vero eos et accusam et justo duo dolores rebum</p>
+                        <p>Heat-resistant solutions ensuring safety in extreme conditions.</p>
                     </div>
                 </div>
-
+                <div class="side_teaser_small media" data-animation="fadeInLeft">
+                    <div class="media-left">
+                        <i class="rt-icon-scissors highlight"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">
+                            <a href="#"><strong>Cut</strong> Protection</a>
+                        </h3>
+                        <p>Durable cut protection gear tailored to industrial needs.</p>
+                    </div>
+                </div>
+                <div class="side_teaser_small media" data-animation="fadeInLeft">
+                    <div class="media-left">
+                        <i class="fa fa-bolt highlight"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">
+                            <a href="#"><strong>Arc Flash</strong> Protection</a>
+                        </h3>
+                        <p>Specialized gear for arc flash protection in electrical settings.</p>
+                    </div>
+                </div>
+                <div class="side_teaser_small media" data-animation="fadeInLeft">
+                    <div class="media-left">
+                        <i class="rt-icon-ladder highlight"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">
+                            <a href="#"><strong>Height</strong> Access</a>
+                        </h3>
+                        <p>Safe height access solutions for high-elevation tasks.</p>
+                    </div>
+                </div>
+                <div class="side_teaser_small media" data-animation="fadeInLeft">
+                    <div class="media-left">
+                        <i class="rt-icon-snowflake highlight"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">
+                            <a href="#"><strong>Cold</strong> Protection</a>
+                        </h3>
+                        <p>Cold and cryo protection for sub-zero working environments.</p>
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
 </section>
+
 
 <section id="progress" class="dark_section parallax">
     <div class="container">
@@ -439,7 +454,7 @@
             <div class="row">
                 <div class="col-sm-5">
                     <h3 class="counter text-md-right" data-from="0" data-to="42854" data-speed="1800">0</h3>
-                    <h4 class="text-md-right">Happy Clients</h4>
+                    <h4 class="text-md-right">Satisfied Clients</h4>
                 </div>
 
                 <div class="col-sm-1 text-center">
@@ -447,7 +462,7 @@
                 </div>
 
                 <div class="col-sm-5">
-                    <p>Consetetur sadipscing elitr diam nonumy eirmod tempor.</p>
+                    <p>Delivering top-tier safety solutions with a customer-focused approach.</p>
                 </div>
             </div>
         </div>
@@ -456,7 +471,7 @@
             <div class="row">
                 <div class="col-sm-5">
                     <p class="text-md-right">
-                        Invidunt ut labore et dolore magna aliquyam erat.
+                        Reliable safety products for diverse industrial applications.
                     </p>
                 </div>
 
@@ -466,17 +481,16 @@
 
                 <div class="col-sm-5">
                     <h3 class="counter" data-from="0" data-to="3568" data-speed="1800">0</h3>
-                    <h4>Projects Made</h4>
+                    <h4>Projects Completed</h4>
                 </div>
             </div>
         </div>
-
 
         <div class="side_teaser table_section to_animate" data-animation="stretchRight">
             <div class="row">
                 <div class="col-sm-5">
                     <h3 class="counter text-md-right" data-from="0" data-to="134672" data-speed="1800">0</h3>
-                    <h4 class="text-md-right">Comments</h4>
+                    <h4 class="text-md-right">Product Enquiries</h4>
                 </div>
 
                 <div class="col-sm-1 text-center">
@@ -485,18 +499,17 @@
 
                 <div class="col-sm-5">
                     <p>
-                        Ut labore et dolore magna aliquyam erat, sed diam voluptua vero eos et accusam et justo.
+                        Continuous engagement to provide up-to-date product information and support.
                     </p>
                 </div>
             </div>
         </div>
 
-
         <div class="side_teaser table_section to_animate" data-animation="stretchLeft">
             <div class="row">
                 <div class="col-sm-5">
                     <p class="text-md-right">
-                        Duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+                        Fostering relationships through exceptional service and reliable products.
                     </p>
                 </div>
 
@@ -506,7 +519,7 @@
 
                 <div class="col-sm-5">
                     <h3 class="counter" data-from="0" data-to="21249" data-speed="1800">0</h3>
-                    <h4>Letters Sent</h4>
+                    <h4>Orders Processed</h4>
                 </div>
             </div>
         </div>
@@ -514,7 +527,8 @@
     </div>
 </section>
 
-<section id="blog" class="grey_section bg_image">
+
+{{-- <section id="blog" class="grey_section bg_image">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 to_animate">
@@ -644,7 +658,7 @@
         </div>
 
     </div>
-</section>
+</section> --}}
 
 <section id="team" class="light_section bottom_section">
     <div class="container">
@@ -653,7 +667,7 @@
                 <h2 class="section_header">
                     <strong>About</strong> company
                 </h2>
-                <p>Meet our members</p>
+                <p>Meet our Dedicated Team</p>
             </div>
         </div>
 
@@ -664,13 +678,13 @@
                         <img src="{{ url('public/assets/example/team/01.jpg') }}" alt="">
                     </div>
                     <div class="team-item-description">
-                        <h3>
+                        <h3 class="media-heading">
                             Daniel Willis
                         </h3>
                         <p class="team-job">
                             <span class="highlight">Fonder, Director</span>
                         </p>
-                        <p>Namliber tempor cum soluta nobis eleifend option.</p>
+                        <p>Daniel leads with a commitment to safety standards, bringing years of experience in providing reliable safety solutions.</p>
 
                         <p class="social-icons">
                             <a class="socialico-facebook" href="#" title="Facebook" data-toggle="tooltip">#</a>
@@ -689,13 +703,13 @@
                         <img src="{{ url('public/assets/example/team/02.jpg') }}" alt="">
                     </div>
                     <div class="team-item-description">
-                        <h3>
+                        <h3 class="media-heading">
                             Bill  Anderson
                         </h3>
                         <p class="team-job">
                             <span class="highlight">Web Developer</span>
                         </p>
-                        <p>Namliber tempor cum soluta nobis eleifend option.</p>
+                        <p>Bill specializes in technical support and ensures our products meet rigorous safety regulations and client needs.</p>
 
                         <p class="social-icons">
                             <a class="socialico-facebook" href="#" title="Facebook" data-toggle="tooltip">#</a>
@@ -716,13 +730,13 @@
                         <img src="{{ url('public/assets/example/team/03.jpg') }}" alt="">
                     </div>
                     <div class="team-item-description">
-                        <h3>
+                        <h3 class="media-heading">
                             Jason Edyson
                         </h3>
                         <p class="team-job">
                             <span class="highlight">Fonder, Director</span>
                         </p>
-                        <p>Namliber tempor cum soluta nobis eleifend option.</p>
+                        <p>Jason oversees day-to-day operations, ensuring efficient service delivery and top-notch product availability.</p>
 
                         <p class="social-icons">
                             <a class="socialico-facebook" href="#" title="Facebook" data-toggle="tooltip">#</a>
@@ -741,13 +755,13 @@
                         <img src="{{ url('public/assets/example/team/04.jpg') }}" alt="">
                     </div>
                     <div class="team-item-description">
-                        <h3>
+                        <h3 class="highlight">
                             Jinney Odrey
                         </h3>
                         <p class="team-job">
                             <span class="highlight">Cofounder, CEO</span>
                         </p>
-                        <p>Namliber tempor cum soluta nobis eleifend option.</p>
+                        <p>Jinney drives the vision of INSYNC, focusing on strategic growth and innovation in workplace safety.</p>
 
                         <p class="social-icons">
                             <a class="socialico-facebook" href="#" title="Facebook" data-toggle="tooltip">#</a>
