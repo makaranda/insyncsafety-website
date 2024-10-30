@@ -152,17 +152,19 @@ jQuery(document).ready(function() {
 			bottom: 0
 		}
 	});
-		//changing header toggler on affix events
-		if ($affixHeader.hasClass('affix')) {
-			jQuery('#toggle_menu').toggleClass('sticked');
-		}
-	jQuery($affixHeader).on('affix.bs.affix', function () {
-		jQuery('#toggle_menu').toggleClass('sticked');
-	});
+    // Changing header toggler on affix events
+    if ($affixHeader.hasClass('affix')) {
+        jQuery('#toggle_menu').removeClass().addClass('sticked');
+    }
 
-	jQuery($affixHeader).on('affix-top.bs.affix', function () {
-		jQuery('#toggle_menu').toggleClass('sticked');
-	});
+    jQuery($affixHeader).on('affix.bs.affix', function () {
+        jQuery('#toggle_menu').removeClass().addClass('sticked');
+    });
+
+    jQuery($affixHeader).on('affix-top.bs.affix', function () {
+        jQuery('#toggle_menu').removeClass().addClass('tgl-hide-defult');
+    });
+
 
 
 	//wrap header with div for smooth sticking

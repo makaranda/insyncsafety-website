@@ -106,6 +106,18 @@ abstract class PrettyPrinterAbstract implements PrettyPrinter {
 
     /** @var int Current indentation level. */
     protected int $indentLevel;
+<<<<<<< HEAD
+=======
+    /** @var string String for single level of indentation */
+    private string $indent;
+    /** @var int Width in spaces to indent by. */
+    private int $indentWidth;
+    /** @var bool Whether to use tab indentation. */
+    private bool $useTabs;
+    /** @var int Width in spaces of one tab. */
+    private int $tabWidth = 4;
+
+>>>>>>> origin/yesen
     /** @var string Newline style. Does not include current indentation. */
     protected string $newline;
     /** @var string Newline including current indentation. */
@@ -170,12 +182,21 @@ abstract class PrettyPrinterAbstract implements PrettyPrinter {
      *                            PHP version while specifying an older target (but the result will
      *                            of course not be compatible with the older version in that case).
      *  * string $newline:        The newline style to use. Should be "\n" (default) or "\r\n".
+<<<<<<< HEAD
+=======
+     *  * string $indent:         The indentation to use. Should either be all spaces or a single
+     *                            tab. Defaults to four spaces ("    ").
+>>>>>>> origin/yesen
      *  * bool $shortArraySyntax: Whether to use [] instead of array() as the default array
      *                            syntax, if the node does not specify a format. Defaults to whether
      *                            the phpVersion support short array syntax.
      *
      * @param array{
+<<<<<<< HEAD
      *     phpVersion?: PhpVersion, newline?: string, shortArraySyntax?: bool
+=======
+     *     phpVersion?: PhpVersion, newline?: string, indent?: string, shortArraySyntax?: bool
+>>>>>>> origin/yesen
      * } $options Dictionary of formatting options
      */
     public function __construct(array $options = []) {
@@ -190,6 +211,20 @@ abstract class PrettyPrinterAbstract implements PrettyPrinter {
             $options['shortArraySyntax'] ?? $this->phpVersion->supportsShortArraySyntax();
         $this->docStringEndToken =
             $this->phpVersion->supportsFlexibleHeredoc() ? null : '_DOC_STRING_END_' . mt_rand();
+<<<<<<< HEAD
+=======
+
+        $this->indent = $indent = $options['indent'] ?? '    ';
+        if ($indent === "\t") {
+            $this->useTabs = true;
+            $this->indentWidth = $this->tabWidth;
+        } elseif ($indent === \str_repeat(' ', \strlen($indent))) {
+            $this->useTabs = false;
+            $this->indentWidth = \strlen($indent);
+        } else {
+            throw new \LogicException('Option "indent" must either be all spaces or a single tab');
+        }
+>>>>>>> origin/yesen
     }
 
     /**
@@ -208,24 +243,44 @@ abstract class PrettyPrinterAbstract implements PrettyPrinter {
      */
     protected function setIndentLevel(int $level): void {
         $this->indentLevel = $level;
+<<<<<<< HEAD
         $this->nl = $this->newline . \str_repeat(' ', $level);
+=======
+        if ($this->useTabs) {
+            $tabs = \intdiv($level, $this->tabWidth);
+            $spaces = $level % $this->tabWidth;
+            $this->nl = $this->newline . \str_repeat("\t", $tabs) . \str_repeat(' ', $spaces);
+        } else {
+            $this->nl = $this->newline . \str_repeat(' ', $level);
+        }
+>>>>>>> origin/yesen
     }
 
     /**
      * Increase indentation level.
      */
     protected function indent(): void {
+<<<<<<< HEAD
         $this->indentLevel += 4;
         $this->nl .= '    ';
+=======
+        $this->indentLevel += $this->indentWidth;
+        $this->nl .= $this->indent;
+>>>>>>> origin/yesen
     }
 
     /**
      * Decrease indentation level.
      */
     protected function outdent(): void {
+<<<<<<< HEAD
         assert($this->indentLevel >= 4);
         $this->indentLevel -= 4;
         $this->nl = $this->newline . str_repeat(' ', $this->indentLevel);
+=======
+        assert($this->indentLevel >= $this->indentWidth);
+        $this->setIndentLevel($this->indentLevel - $this->indentWidth);
+>>>>>>> origin/yesen
     }
 
     /**
@@ -537,7 +592,11 @@ abstract class PrettyPrinterAbstract implements PrettyPrinter {
         $this->initializeModifierChangeMap();
 
         $this->resetState();
+<<<<<<< HEAD
         $this->origTokens = new TokenStream($origTokens);
+=======
+        $this->origTokens = new TokenStream($origTokens, $this->tabWidth);
+>>>>>>> origin/yesen
 
         $this->preprocessNodes($stmts);
 
@@ -709,7 +768,11 @@ abstract class PrettyPrinterAbstract implements PrettyPrinter {
                 $result .= $extraLeft;
 
                 $origIndentLevel = $this->indentLevel;
+<<<<<<< HEAD
                 $this->setIndentLevel($this->origTokens->getIndentationBefore($subStartPos) + $indentAdjustment);
+=======
+                $this->setIndentLevel(max($this->origTokens->getIndentationBefore($subStartPos) + $indentAdjustment, 0));
+>>>>>>> origin/yesen
 
                 // If it's the same node that was previously in this position, it certainly doesn't
                 // need fixup. It's important to check this here, because our fixup checks are more
@@ -812,7 +875,11 @@ abstract class PrettyPrinterAbstract implements PrettyPrinter {
                 \assert($itemStartPos >= 0 && $itemEndPos >= 0 && $itemStartPos >= $pos);
 
                 $origIndentLevel = $this->indentLevel;
+<<<<<<< HEAD
                 $lastElemIndentLevel = $this->origTokens->getIndentationBefore($itemStartPos) + $indentAdjustment;
+=======
+                $lastElemIndentLevel = max($this->origTokens->getIndentationBefore($itemStartPos) + $indentAdjustment, 0);
+>>>>>>> origin/yesen
                 $this->setIndentLevel($lastElemIndentLevel);
 
                 $comments = $arrItem->getComments();

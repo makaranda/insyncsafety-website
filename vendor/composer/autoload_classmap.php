@@ -9,6 +9,10 @@ return array(
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+<<<<<<< HEAD
+=======
+    'App\\Http\\Controllers\\frontend\\PagesController' => $baseDir . '/app/Http/Controllers/frontend/PagesController.php',
+>>>>>>> origin/yesen
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
@@ -3414,7 +3418,10 @@ return array(
     'PHPUnit\\Framework\\MockObject\\NeverReturningMethodException' => $vendorDir . '/phpunit/phpunit/src/Framework/MockObject/Exception/NeverReturningMethodException.php',
     'PHPUnit\\Framework\\MockObject\\NoMoreReturnValuesConfiguredException' => $vendorDir . '/phpunit/phpunit/src/Framework/MockObject/Exception/NoMoreReturnValuesConfiguredException.php',
     'PHPUnit\\Framework\\MockObject\\ProxiedCloneMethod' => $vendorDir . '/phpunit/phpunit/src/Framework/MockObject/Runtime/Api/ProxiedCloneMethod.php',
+<<<<<<< HEAD
     'PHPUnit\\Framework\\MockObject\\ReflectionException' => $vendorDir . '/phpunit/phpunit/src/Framework/MockObject/Exception/ReflectionException.php',
+=======
+>>>>>>> origin/yesen
     'PHPUnit\\Framework\\MockObject\\ReturnValueGenerator' => $vendorDir . '/phpunit/phpunit/src/Framework/MockObject/Runtime/ReturnValueGenerator.php',
     'PHPUnit\\Framework\\MockObject\\ReturnValueNotConfiguredException' => $vendorDir . '/phpunit/phpunit/src/Framework/MockObject/Exception/ReturnValueNotConfiguredException.php',
     'PHPUnit\\Framework\\MockObject\\Rule\\AnyInvokedCount' => $vendorDir . '/phpunit/phpunit/src/Framework/MockObject/Runtime/Rule/AnyInvokedCount.php',
@@ -3475,7 +3482,10 @@ return array(
     'PHPUnit\\Framework\\UnknownClassOrInterfaceException' => $vendorDir . '/phpunit/phpunit/src/Framework/Exception/UnknownClassOrInterfaceException.php',
     'PHPUnit\\Framework\\UnknownTypeException' => $vendorDir . '/phpunit/phpunit/src/Framework/Exception/UnknownTypeException.php',
     'PHPUnit\\Logging\\EventLogger' => $vendorDir . '/phpunit/phpunit/src/Logging/EventLogger.php',
+<<<<<<< HEAD
     'PHPUnit\\Logging\\Exception' => $vendorDir . '/phpunit/phpunit/src/Logging/Exception.php',
+=======
+>>>>>>> origin/yesen
     'PHPUnit\\Logging\\JUnit\\JunitXmlLogger' => $vendorDir . '/phpunit/phpunit/src/Logging/JUnit/JunitXmlLogger.php',
     'PHPUnit\\Logging\\JUnit\\Subscriber' => $vendorDir . '/phpunit/phpunit/src/Logging/JUnit/Subscriber/Subscriber.php',
     'PHPUnit\\Logging\\JUnit\\TestErroredSubscriber' => $vendorDir . '/phpunit/phpunit/src/Logging/JUnit/Subscriber/TestErroredSubscriber.php',
@@ -3637,11 +3647,17 @@ return array(
     'PHPUnit\\Runner\\GarbageCollection\\TestFinishedSubscriber' => $vendorDir . '/phpunit/phpunit/src/Runner/GarbageCollection/Subscriber/TestFinishedSubscriber.php',
     'PHPUnit\\Runner\\InvalidOrderException' => $vendorDir . '/phpunit/phpunit/src/Runner/Exception/InvalidOrderException.php',
     'PHPUnit\\Runner\\InvalidPhptFileException' => $vendorDir . '/phpunit/phpunit/src/Runner/Exception/InvalidPhptFileException.php',
+<<<<<<< HEAD
     'PHPUnit\\Runner\\NoIgnoredEventException' => $vendorDir . '/phpunit/phpunit/src/Runner/Exception/NoIgnoredEventException.php',
     'PHPUnit\\Runner\\ParameterDoesNotExistException' => $vendorDir . '/phpunit/phpunit/src/Runner/Exception/ParameterDoesNotExistException.php',
     'PHPUnit\\Runner\\PhptExternalFileCannotBeLoadedException' => $vendorDir . '/phpunit/phpunit/src/Runner/Exception/PhptExternalFileCannotBeLoadedException.php',
     'PHPUnit\\Runner\\PhptTestCase' => $vendorDir . '/phpunit/phpunit/src/Runner/PhptTestCase.php',
     'PHPUnit\\Runner\\ReflectionException' => $vendorDir . '/phpunit/phpunit/src/Runner/Exception/ReflectionException.php',
+=======
+    'PHPUnit\\Runner\\ParameterDoesNotExistException' => $vendorDir . '/phpunit/phpunit/src/Runner/Exception/ParameterDoesNotExistException.php',
+    'PHPUnit\\Runner\\PhptExternalFileCannotBeLoadedException' => $vendorDir . '/phpunit/phpunit/src/Runner/Exception/PhptExternalFileCannotBeLoadedException.php',
+    'PHPUnit\\Runner\\PhptTestCase' => $vendorDir . '/phpunit/phpunit/src/Runner/PhptTestCase.php',
+>>>>>>> origin/yesen
     'PHPUnit\\Runner\\ResultCache\\DefaultResultCache' => $vendorDir . '/phpunit/phpunit/src/Runner/ResultCache/DefaultResultCache.php',
     'PHPUnit\\Runner\\ResultCache\\NullResultCache' => $vendorDir . '/phpunit/phpunit/src/Runner/ResultCache/NullResultCache.php',
     'PHPUnit\\Runner\\ResultCache\\ResultCache' => $vendorDir . '/phpunit/phpunit/src/Runner/ResultCache/ResultCache.php',
@@ -3734,7 +3750,10 @@ return array(
     'PHPUnit\\TextUI\\Configuration\\Group' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Value/Group.php',
     'PHPUnit\\TextUI\\Configuration\\GroupCollection' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Value/GroupCollection.php',
     'PHPUnit\\TextUI\\Configuration\\GroupCollectionIterator' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Value/GroupCollectionIterator.php',
+<<<<<<< HEAD
     'PHPUnit\\TextUI\\Configuration\\IncludePathNotConfiguredException' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Exception/IncludePathNotConfiguredException.php',
+=======
+>>>>>>> origin/yesen
     'PHPUnit\\TextUI\\Configuration\\IniSetting' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Value/IniSetting.php',
     'PHPUnit\\TextUI\\Configuration\\IniSettingCollection' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Value/IniSettingCollection.php',
     'PHPUnit\\TextUI\\Configuration\\IniSettingCollectionIterator' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Value/IniSettingCollectionIterator.php',
@@ -3769,7 +3788,10 @@ return array(
     'PHPUnit\\TextUI\\Configuration\\VariableCollection' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Value/VariableCollection.php',
     'PHPUnit\\TextUI\\Configuration\\VariableCollectionIterator' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Value/VariableCollectionIterator.php',
     'PHPUnit\\TextUI\\Exception' => $vendorDir . '/phpunit/phpunit/src/TextUI/Exception/Exception.php',
+<<<<<<< HEAD
     'PHPUnit\\TextUI\\ExtensionsNotConfiguredException' => $vendorDir . '/phpunit/phpunit/src/TextUI/Exception/ExtensionsNotConfiguredException.php',
+=======
+>>>>>>> origin/yesen
     'PHPUnit\\TextUI\\Help' => $vendorDir . '/phpunit/phpunit/src/TextUI/Help.php',
     'PHPUnit\\TextUI\\InvalidSocketException' => $vendorDir . '/phpunit/phpunit/src/TextUI/Exception/InvalidSocketException.php',
     'PHPUnit\\TextUI\\Output\\DefaultPrinter' => $vendorDir . '/phpunit/phpunit/src/TextUI/Output/Printer/DefaultPrinter.php',
@@ -3800,7 +3822,10 @@ return array(
     'PHPUnit\\TextUI\\Output\\Printer' => $vendorDir . '/phpunit/phpunit/src/TextUI/Output/Printer/Printer.php',
     'PHPUnit\\TextUI\\Output\\SummaryPrinter' => $vendorDir . '/phpunit/phpunit/src/TextUI/Output/SummaryPrinter.php',
     'PHPUnit\\TextUI\\Output\\TestDox\\ResultPrinter' => $vendorDir . '/phpunit/phpunit/src/TextUI/Output/TestDox/ResultPrinter.php',
+<<<<<<< HEAD
     'PHPUnit\\TextUI\\ReflectionException' => $vendorDir . '/phpunit/phpunit/src/TextUI/Exception/ReflectionException.php',
+=======
+>>>>>>> origin/yesen
     'PHPUnit\\TextUI\\RuntimeException' => $vendorDir . '/phpunit/phpunit/src/TextUI/Exception/RuntimeException.php',
     'PHPUnit\\TextUI\\ShellExitCodeCalculator' => $vendorDir . '/phpunit/phpunit/src/TextUI/ShellExitCodeCalculator.php',
     'PHPUnit\\TextUI\\TestDirectoryNotFoundException' => $vendorDir . '/phpunit/phpunit/src/TextUI/Exception/TestDirectoryNotFoundException.php',
@@ -3841,7 +3866,10 @@ return array(
     'PHPUnit\\TextUI\\XmlConfiguration\\Logging\\TestDox\\Text' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Xml/Logging/TestDox/Text.php',
     'PHPUnit\\TextUI\\XmlConfiguration\\Migration' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Xml/Migration/Migrations/Migration.php',
     'PHPUnit\\TextUI\\XmlConfiguration\\MigrationBuilder' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Xml/Migration/MigrationBuilder.php',
+<<<<<<< HEAD
     'PHPUnit\\TextUI\\XmlConfiguration\\MigrationBuilderException' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Xml/Migration/MigrationBuilderException.php',
+=======
+>>>>>>> origin/yesen
     'PHPUnit\\TextUI\\XmlConfiguration\\MigrationException' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Xml/Migration/MigrationException.php',
     'PHPUnit\\TextUI\\XmlConfiguration\\Migrator' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Xml/Migration/Migrator.php',
     'PHPUnit\\TextUI\\XmlConfiguration\\MoveAttributesFromFilterWhitelistToCoverage' => $vendorDir . '/phpunit/phpunit/src/TextUI/Configuration/Xml/Migration/Migrations/MoveAttributesFromFilterWhitelistToCoverage.php',
@@ -3886,6 +3914,11 @@ return array(
     'PHPUnit\\Util\\Filesystem' => $vendorDir . '/phpunit/phpunit/src/Util/Filesystem.php',
     'PHPUnit\\Util\\Filter' => $vendorDir . '/phpunit/phpunit/src/Util/Filter.php',
     'PHPUnit\\Util\\GlobalState' => $vendorDir . '/phpunit/phpunit/src/Util/GlobalState.php',
+<<<<<<< HEAD
+=======
+    'PHPUnit\\Util\\Http\\Downloader' => $vendorDir . '/phpunit/phpunit/src/Util/Http/Downloader.php',
+    'PHPUnit\\Util\\Http\\PhpDownloader' => $vendorDir . '/phpunit/phpunit/src/Util/Http/PhpDownloader.php',
+>>>>>>> origin/yesen
     'PHPUnit\\Util\\InvalidDirectoryException' => $vendorDir . '/phpunit/phpunit/src/Util/Exception/InvalidDirectoryException.php',
     'PHPUnit\\Util\\InvalidJsonException' => $vendorDir . '/phpunit/phpunit/src/Util/Exception/InvalidJsonException.php',
     'PHPUnit\\Util\\InvalidVersionOperatorException' => $vendorDir . '/phpunit/phpunit/src/Util/Exception/InvalidVersionOperatorException.php',

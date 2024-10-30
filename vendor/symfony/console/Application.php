@@ -169,9 +169,15 @@ class Application implements ResetInterface
             }
         }
 
+<<<<<<< HEAD
         $this->configureIO($input, $output);
 
         try {
+=======
+        try {
+            $this->configureIO($input, $output);
+
+>>>>>>> origin/yesen
             $exitCode = $this->doRun($input, $output);
         } catch (\Throwable $e) {
             if ($e instanceof \Exception && !$this->catchExceptions) {

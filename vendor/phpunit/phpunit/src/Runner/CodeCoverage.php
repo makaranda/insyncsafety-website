@@ -316,7 +316,13 @@ final class CodeCoverage
             $textReport = $processor->process($this->codeCoverage(), $configuration->colors());
 
             if ($configuration->coverageText() === 'php://stdout') {
+<<<<<<< HEAD
                 $printer->print($textReport);
+=======
+                if (!$configuration->noOutput() && !$configuration->debug()) {
+                    $printer->print($textReport);
+                }
+>>>>>>> origin/yesen
             } else {
                 file_put_contents($configuration->coverageText(), $textReport);
             }

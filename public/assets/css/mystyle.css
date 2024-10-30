@@ -24,3 +24,93 @@
     font-weight: 300;
     color: #fff !important;
 }
+
+.tgl-hide-defult{
+    display: none;
+}
+
+.team-item-description h3{
+    color: #dc3545 !important;
+
+}
+
+.services-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.section-header {
+    margin-bottom: 60px;
+}
+
+.section-title {
+    color: #1B4B66;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-heading {
+    color: #E31837;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.service-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    background: #fff1f3;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-icon i {
+    color: #E31837;
+    font-size: 24px;
+}
+
+.service-title {
+    color: #1B4B66;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.service-description {
+    color: #6c757d;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .services-section {
+        padding: 50px 0;
+    }
+
+    .section-heading {
+        font-size: 28px;
+    }
+
+    .service-card {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}

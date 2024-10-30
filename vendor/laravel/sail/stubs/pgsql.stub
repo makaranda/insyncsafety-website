@@ -1,5 +1,9 @@
 pgsql:
+<<<<<<< HEAD
     image: 'postgres:15'
+=======
+    image: 'postgres:17'
+>>>>>>> origin/yesen
     ports:
         - '${FORWARD_DB_PORT:-5432}:5432'
     environment:

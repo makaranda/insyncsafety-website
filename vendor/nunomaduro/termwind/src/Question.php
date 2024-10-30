@@ -27,9 +27,15 @@ final class Question
      */
     private SymfonyQuestionHelper $helper;
 
+<<<<<<< HEAD
     public function __construct(SymfonyQuestionHelper $helper = null)
     {
         $this->helper = $helper ?? new QuestionHelper();
+=======
+    public function __construct(?SymfonyQuestionHelper $helper = null)
+    {
+        $this->helper = $helper ?? new QuestionHelper;
+>>>>>>> origin/yesen
     }
 
     /**
@@ -37,7 +43,11 @@ final class Question
      */
     public static function setStreamableInput(StreamableInputInterface|null $streamableInput): void
     {
+<<<<<<< HEAD
         self::$streamableInput = $streamableInput ?? new ArgvInput();
+=======
+        self::$streamableInput = $streamableInput ?? new ArgvInput;
+>>>>>>> origin/yesen
     }
 
     /**
@@ -45,7 +55,11 @@ final class Question
      */
     public static function getStreamableInput(): StreamableInputInterface
     {
+<<<<<<< HEAD
         return self::$streamableInput ??= new ArgvInput();
+=======
+        return self::$streamableInput ??= new ArgvInput;
+>>>>>>> origin/yesen
     }
 
     /**
@@ -53,7 +67,11 @@ final class Question
      *
      * @param  iterable<array-key, string>|null  $autocomplete
      */
+<<<<<<< HEAD
     public function ask(string $question, iterable $autocomplete = null): mixed
+=======
+    public function ask(string $question, ?iterable $autocomplete = null): mixed
+>>>>>>> origin/yesen
     {
         $html = (new HtmlRenderer)->parse($question)->toString();
 
@@ -73,7 +91,11 @@ final class Question
 
             $currentHelper = $property->isInitialized($output)
                 ? $property->getValue($output)
+<<<<<<< HEAD
                 : new SymfonyQuestionHelper();
+=======
+                : new SymfonyQuestionHelper;
+>>>>>>> origin/yesen
 
             $property->setValue($output, new QuestionHelper);
 

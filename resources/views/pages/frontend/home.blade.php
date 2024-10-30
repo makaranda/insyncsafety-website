@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <section id="mainslider" class="darkgrey_section action_section">
     <div class="flexslider">
         <ul class="slides">
@@ -8,15 +9,13 @@
                 <img src="{{ url('public/assets/example/slide01.jpg') }}" alt="">
                 <div class="slide_description_wrapper">
                     <div class="slide_description">
-                        <p data-animation="fadeInLeft">Meriada Pro Presents:</p>
-
+                        <p data-animation="fadeInLeft">Comprehensive Safety Solutions:</p>
                         <h3 data-animation="fadeInLeft">
                             <strong>
-                                <span class="highlight">Everything</span> You
-                            </strong> Need<br>
+                                <span class="highlight">Providing innovative solutions to protect your </span> workforce
+                            </strong> and environment.<br>
                             Unique <strong>&amp; Flexible</strong>
                         </h3>
-
                     </div>
                 </div>
             </li>
@@ -24,15 +23,13 @@
                 <img src="{{ url('public/assets/example/slide02.jpg') }}" alt="">
                 <div class="slide_description_wrapper">
                     <div class="slide_description">
-                        <p data-animation="expandUp">Meriada Pro Presents:</p>
-
+                        <p data-animation="fadeInLeft">Quality You Can Trust:</p>
                         <h3 data-animation="fadeInLeft">
                             <strong>
-                                <span class="highlight">We</span> Generate
-                            </strong> Most<br>
-                            Creative <strong> Ideas</strong>
+                                <span class="highlight">High-quality safety equipment meeting </span> global standards
+                            </strong> for every industry.<br>
+                            Reliable <strong>&amp; Durable</strong>
                         </h3>
-
                     </div>
                 </div>
             </li>
@@ -40,82 +37,68 @@
                 <img src="{{ url('public/assets/example/slide03.jpg') }}" alt="">
                 <div class="slide_description_wrapper">
                     <div class="slide_description">
-                        <p data-animation="expandUp">Meriada Pro Presents:</p>
-
+                        <p data-animation="fadeInLeft">Empowering Safer Workplaces:</p>
                         <h3 data-animation="fadeInLeft">
                             <strong>
-                                <span class="highlight">Innovate</span> Template
-                            </strong> Most<br>
-                            Designed <strong> with</strong> Love
+                                <span class="highlight">Comprehensive solutions from PPE to </span> environmental safety
+                            </strong> for all sectors.<br>
+                            Complete <strong>&amp; Effective</strong>
                         </h3>
-
                     </div>
                 </div>
             </li>
         </ul>
     </div>
+</section>
 
+<section id="features" class="light_section">
+    <div class="container-fluid">
 
-    <section id="features" class="light_section">
-        <div class="container-fluid">
-
-            <div class="row">
-                <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-
-                    <div class="square_teaser">
-                        <i class="rt-icon-user3"></i>
-                        <h4>
-                            <a href="#"><strong>Easy</strong> Customize</a>
-                        </h4>
-                        <p>Duiautem eumre dolor hendrerit <br>
-                            vulputate velit esse molestie.</p>
-                    </div>
-
+        <div class="row">
+            <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
+                <div class="square_teaser">
+                    <i class="rt-icon-user3"></i>
+                    <h4>
+                        <a href="#"><strong>Easy</strong> Consultation</a>
+                    </h4>
+                    <p>Get expert advice on safety products tailored to your specific industry needs.</p>
                 </div>
+            </div>
 
-                <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-
-                    <div class="square_teaser">
-                        <i class="rt-icon-bulb"></i>
-                        <h4>
-                            <a href="#"><strong>Unique</strong> Design</a>
-                        </h4>
-                        <p>Consequat, vel illum dolore eu feugiat<br>
-                         nulla facilisis at vero.</p>
-                    </div>
-
+            <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
+                <div class="square_teaser">
+                    <i class="rt-icon-cog"></i>
+                    <h4>
+                        <a href="#"><strong>Quality</strong> Assurance</a>
+                    </h4>
+                    <p>Our products meet rigorous local and international safety standards.</p>
                 </div>
+            </div>
 
-                <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-
-                    <div class="square_teaser">
-                        <i class="rt-icon-wallet"></i>
-                        <h4>
-                            <a href="#"><strong>Retina</strong> Ready</a>
-                        </h4>
-                        <p>Eros et accumsusto odio dignissim qui <br>
-                         blandit praesent.</p>
-                    </div>
-
+            <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
+                <div class="square_teaser">
+                    <i class="rt-icon-support"></i>
+                    <h4>
+                        <a href="#"><strong>Reliable</strong> Support</a>
+                    </h4>
+                    <p>24/7 customer service to help you with product information and technical support.</p>
                 </div>
+            </div>
 
-                <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
-
-                    <div class="square_teaser">
-                        <i class="rt-icon-wallet"></i>
-                        <h4>
-                            <a href="#"><strong>24/7</strong> Support</a>
-                        </h4>
-                        <p>Eros et accumsusto odio dignissim qui <br>
-                            blandit praesent.</p>
-                    </div>
-
+            <div class="col-sm-3 to_animate" data-animation="fadeInLeft">
+                <div class="square_teaser">
+                    <i class="rt-icon-star"></i>
+                    <h4>
+                        <a href="#"><strong>Expert</strong> Guidance</a>
+                    </h4>
+                    <p>Benefit from our industry expertise to enhance workplace safety efficiently.</p>
                 </div>
-
             </div>
 
         </div>
-    </section>
+
+    </div>
+</section>
 
 <section class="grey_section bg_image table_section">
     <div id="team_carousel">
@@ -204,30 +187,30 @@
 
                 <div id="isotope_filters">
                     <a href="#" data-filter="*" class="selected">Show All</a>
-                    <a href="#" data-filter=".webdesign">Web Design</a>
-                    <a href="#" data-filter=".development">Development</a>
-                    <a href="#" data-filter=".photography">Photography</a>
-                    <a href="#" data-filter=".programming">Programming</a>
+                    <a href="#" data-filter=".webdesign">Safety Gear</a>
+                    <a href="#" data-filter=".development">Research</a>
+                    <a href="#" data-filter=".photography">Our Team</a>
+                    <a href="#" data-filter=".programming">Projects</a>
                 </div>
 
                 <div id="isotope_container" class="isotope row masonry-layout to_animate">
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 webdesign photography">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/01.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide02-1.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/01.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
+                            <h3><a href="gallery-single.html">Safety at Heights</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Equipment</a>, <a href="portfolio.html">Protective Gear</a></p>
                         </div>
                     </div>
 
                     <div class="isotope-item gallery-item col-lg-6 col-md-6 col-sm-6 photography webdesign">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/02.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide01.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/02.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
@@ -239,124 +222,116 @@
                             </a>
                             <div class="display_table_cell big-item-description">
                                 <h3>
-                                    <a href="gallery-single.html">Young female passenger</a>
+                                    <a href="gallery-single.html">Employee Training</a>
                                 </h3>
-                                <p>Lorem ipsudolor consetetur sadipscing elitr sed diam nonumy tempor...</p>
+                                <p>Expert-led training sessions ensure safe practices in all environments...</p>
                             </div>
                             <div class="display_table_cell big-item-social">
                                 <a class="socialico-facebook" href="#" title="Facebook" data-toggle="tooltip">#</a>
                                 <a class="socialico-twitter" href="#" title="Twitter" data-toggle="tooltip">#</a>
                                 <a class="socialico-google" href="#" title="Google" data-toggle="tooltip">#</a>
                             </div>
-
-
                         </div>
                     </div>
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 development">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/03.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide02.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/03.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Environmental Protection</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Services</a>, <a href="portfolio.html">Solutions</a></p>
                         </div>
                     </div>
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 development">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/04.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide01.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/04.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Quality Assurance</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Service</a>, <a href="portfolio.html">Safety</a></p>
                         </div>
                     </div>
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 webdesign">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/05.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide02.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/05.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Safety Gear</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Products</a>, <a href="portfolio.html">Protection</a></p>
                         </div>
                     </div>
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 photography">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/06.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide02.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/06.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Protective Helmets</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Headgear</a>, <a href="portfolio.html">Safety</a></p>
                         </div>
                     </div>
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 development programming">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/07.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/slide03.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/07.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Lifeline Solutions</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Fall</a>, <a href="portfolio.html">Protection</a></p>
                         </div>
                     </div>
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 programming">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/08.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/INHERENT FLAME RETARDANT.jpg') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/08.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Emergency Gear</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Response</a>, <a href="portfolio.html">Equipment</a></p>
                         </div>
                     </div>
 
                     <div class="isotope-item gallery-item col-lg-3 col-md-6 col-sm-6 programming">
                         <div class="gallery-image">
-                            <img src="{{ url('public/assets/example/gallery/12.jpg') }}" alt="">
+                            <img src="{{ url('public/assets/example/HEAT PROTECTION SOLUTIONS.png') }}" alt="">
                             <div class="gallery-image-links">
                                 <a class="p-view prettyPhoto " title="" data-gal="prettyPhoto[gal]" href="example/gallery/12.jpg"></a>
                                 <a class="p-link" title="" href="gallery-single.html"></a>
                             </div>
                         </div>
                         <div class="gallery-item-description">
-                            <h3><a href="gallery-single.html">Lorem Ipsum Dolor</a></h3>
-                            <p class="gallery-meta"><a href="portfolio.html">Media</a>, <a href="portfolio.html">Web design</a></p>
-
+                            <h3><a href="gallery-single.html">Spill Control</a></h3>
+                            <p class="gallery-meta"><a href="portfolio.html">Containment</a>, <a href="portfolio.html">Solutions</a></p>
                         </div>
                     </div>
+
 
                 </div>
             </div>
@@ -368,78 +343,179 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8 to_animate" data-animation="pullDown">
-                <h3><strong>Like this theme?</strong> Get your copy of this great theme now!</h3>
+                <h3><strong>Do You Like Us?</strong> Contact us today for an evaluation!</h3>
             </div>
             <div class="col-sm-4 to_animate" data-animation="pullDown">
-                <a href="#" class="theme_button inverse">View Features</a>
-                <a href="#" class="theme_button">Buy This Theme</a>
+                <a href="#" class="theme_button inverse">Call Now</a>
+                <a href="#" class="theme_button">Contact From</a>
             </div>
 
         </div>
     </div>
 </section>
 
-<section id="services" class="light_section action_section parallax">
+<section id="middle" class="light_section blog-grid">
     <div class="container">
         <div class="row">
+            <div class="col-sm-12">
 
+                <div id="isotope_container" class="isotope row masonry-layout">
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="{{ url('public/assets/example/RESCUE FROM HEIGHT SOLUTIONS.png') }}">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Rescue from Height Solutions</a>
+                                </h3>
 
-            <div class="col-md-5 to_animate">
-                <h2>Check Our</h2>
-                <h2 class="section_header big">
-                    <span class="highlight">
-                        <strong>Services</strong>
-                    </span>
-                </h2>
+                                <div class="entry-content">
+                                    <p>Offering advanced equipment and training to ensure safety during high-altitude rescues, tailored to industrial and emergency settings.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
 
-                <div class="side_teaser_small media" data-animation="fadeInLeft">
-                    <div class="media-left">
-                        <i class="rt-icon-pen2 highlight"></i>
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="{{ url('public/assets/example/INHERENT FLAME RETARDANT.jpg') }}">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Inherent Flame Retardant</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Our flame-resistant products are designed for high-heat environments, ensuring worker safety without compromising comfort.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">
-                            <a href="#"><strong>Web</strong> Design</a>
-                        </h3>
-                        <p>Consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="{{ url('public/assets/example/HEAT PROTECTION SOLUTIONS.png') }}">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Heat Protection Solutions</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Protective gear designed to withstand high temperatures, offering reliable safety for workers in extreme heat environments.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-                </div>
-                <div class="side_teaser_small media" data-animation="fadeInLeft">
-                    <div class="media-left">
-                        <i class="fa fa-code highlight"></i>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="{{ url('public/assets/example/CUT PROTECTION SOLUTIONS.jpg') }}">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Cut Protection Solutions</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Cut-resistant gloves and apparel to protect workers handling sharp tools or materials, enhancing workplace safety.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">
-                            <a href="#"><strong>Pure</strong> Code</a>
-                        </h3>
-                        <p>Tempor invidunt ut labore et dolore magna</p>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="{{ url('public/assets/example/ARC FLASH PROTECTION.jpg') }}">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Arc Flash Protection</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Specialized PPE to safeguard against arc flash incidents, protecting against severe electrical hazards.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-                </div>
-                <div class="side_teaser_small media" data-animation="fadeInLeft">
-                    <div class="media-left">
-                        <i class="rt-icon-lab2 highlight"></i>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="{{ url('public/assets/example/HEIGHT ACCESS SOLUTIONS.jpg') }}">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Height Access Solutions</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Comprehensive solutions for safe access to high areas, including ladders, scaffolding, and fall protection systems.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">
-                            <a href="#"><strong>CEO</strong> Research</a>
-                        </h3>
-                        <p>At vero eos et accusam et justo duo dolores rebum</p>
+
+                    <div class="isotope-item isotope-item-blog  col-md-4 col-sm-6">
+                        <article class="post format-standard blog-grid">
+                            <div class="entry-thumbnail">
+                                <img alt="" src="{{ url('public/assets/example/CRYOCOLD PROTECTION.png') }}">
+                            </div>
+                            <div class="post-content">
+                                <h3 class="entry-title-small">
+                                    <a href="blog-single-right.html" rel="bookmark">Cryo/Cold Protection</a>
+                                </h3>
+
+                                <div class="entry-content">
+                                    <p>Insulated gear to protect workers in extremely cold environments, ideal for handling frozen or cryogenic materials.</p>
+                                    <p>
+                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
 
             </div>
-
         </div>
     </div>
 </section>
 
-<section id="progress" class="dark_section parallax">
+
+
+<section id="progress" class="dark_section parallax statistics-section">
     <div class="container">
 
         <div class="side_teaser table_section to_animate" data-animation="stretchRight">
             <div class="row">
                 <div class="col-sm-5">
                     <h3 class="counter text-md-right" data-from="0" data-to="42854" data-speed="1800">0</h3>
-                    <h4 class="text-md-right">Happy Clients</h4>
+                    <h4 class="text-md-right">Satisfied Clients</h4>
                 </div>
 
                 <div class="col-sm-1 text-center">
@@ -447,7 +523,7 @@
                 </div>
 
                 <div class="col-sm-5">
-                    <p>Consetetur sadipscing elitr diam nonumy eirmod tempor.</p>
+                    <p>Delivering top-tier safety solutions with a customer-focused approach.</p>
                 </div>
             </div>
         </div>
@@ -456,7 +532,7 @@
             <div class="row">
                 <div class="col-sm-5">
                     <p class="text-md-right">
-                        Invidunt ut labore et dolore magna aliquyam erat.
+                        Reliable safety products for diverse industrial applications.
                     </p>
                 </div>
 
@@ -466,17 +542,16 @@
 
                 <div class="col-sm-5">
                     <h3 class="counter" data-from="0" data-to="3568" data-speed="1800">0</h3>
-                    <h4>Projects Made</h4>
+                    <h4>Projects Completed</h4>
                 </div>
             </div>
         </div>
-
 
         <div class="side_teaser table_section to_animate" data-animation="stretchRight">
             <div class="row">
                 <div class="col-sm-5">
                     <h3 class="counter text-md-right" data-from="0" data-to="134672" data-speed="1800">0</h3>
-                    <h4 class="text-md-right">Comments</h4>
+                    <h4 class="text-md-right">Product Enquiries</h4>
                 </div>
 
                 <div class="col-sm-1 text-center">
@@ -485,18 +560,17 @@
 
                 <div class="col-sm-5">
                     <p>
-                        Ut labore et dolore magna aliquyam erat, sed diam voluptua vero eos et accusam et justo.
+                        Continuous engagement to provide up-to-date product information and support.
                     </p>
                 </div>
             </div>
         </div>
 
-
         <div class="side_teaser table_section to_animate" data-animation="stretchLeft">
             <div class="row">
                 <div class="col-sm-5">
                     <p class="text-md-right">
-                        Duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+                        Fostering relationships through exceptional service and reliable products.
                     </p>
                 </div>
 
@@ -506,7 +580,7 @@
 
                 <div class="col-sm-5">
                     <h3 class="counter" data-from="0" data-to="21249" data-speed="1800">0</h3>
-                    <h4>Letters Sent</h4>
+                    <h4>Orders Processed</h4>
                 </div>
             </div>
         </div>
@@ -514,7 +588,8 @@
     </div>
 </section>
 
-<section id="blog" class="grey_section bg_image">
+
+{{-- <section id="blog" class="grey_section bg_image">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 to_animate">
@@ -644,7 +719,7 @@
         </div>
 
     </div>
-</section>
+</section> --}}
 
 <section id="team" class="light_section bottom_section">
     <div class="container">
@@ -653,7 +728,7 @@
                 <h2 class="section_header">
                     <strong>About</strong> company
                 </h2>
-                <p>Meet our members</p>
+                <p>Meet our Dedicated Team</p>
             </div>
         </div>
 
@@ -664,13 +739,13 @@
                         <img src="{{ url('public/assets/example/team/01.jpg') }}" alt="">
                     </div>
                     <div class="team-item-description">
-                        <h3>
+                        <h3 class="media-heading">
                             Daniel Willis
                         </h3>
                         <p class="team-job">
                             <span class="highlight">Fonder, Director</span>
                         </p>
-                        <p>Namliber tempor cum soluta nobis eleifend option.</p>
+                        <p>Daniel leads with a commitment to safety standards, bringing years of experience in providing reliable safety solutions.</p>
 
                         <p class="social-icons">
                             <a class="socialico-facebook" href="#" title="Facebook" data-toggle="tooltip">#</a>
@@ -689,13 +764,13 @@
                         <img src="{{ url('public/assets/example/team/02.jpg') }}" alt="">
                     </div>
                     <div class="team-item-description">
-                        <h3>
+                        <h3 class="media-heading">
                             Bill  Anderson
                         </h3>
                         <p class="team-job">
                             <span class="highlight">Web Developer</span>
                         </p>
-                        <p>Namliber tempor cum soluta nobis eleifend option.</p>
+                        <p>Bill specializes in technical support and ensures our products meet rigorous safety regulations and client needs.</p>
 
                         <p class="social-icons">
                             <a class="socialico-facebook" href="#" title="Facebook" data-toggle="tooltip">#</a>
@@ -716,13 +791,13 @@
                         <img src="{{ url('public/assets/example/team/03.jpg') }}" alt="">
                     </div>
                     <div class="team-item-description">
-                        <h3>
+                        <h3 class="media-heading">
                             Jason Edyson
                         </h3>
                         <p class="team-job">
                             <span class="highlight">Fonder, Director</span>
                         </p>
-                        <p>Namliber tempor cum soluta nobis eleifend option.</p>
+                        <p>Jason oversees day-to-day operations, ensuring efficient service delivery and top-notch product availability.</p>
 
                         <p class="social-icons">
                             <a class="socialico-facebook" href="#" title="Facebook" data-toggle="tooltip">#</a>
@@ -741,13 +816,13 @@
                         <img src="{{ url('public/assets/example/team/04.jpg') }}" alt="">
                     </div>
                     <div class="team-item-description">
-                        <h3>
+                        <h3 class="highlight">
                             Jinney Odrey
                         </h3>
                         <p class="team-job">
                             <span class="highlight">Cofounder, CEO</span>
                         </p>
-                        <p>Namliber tempor cum soluta nobis eleifend option.</p>
+                        <p>Jinney drives the vision of INSYNC, focusing on strategic growth and innovation in workplace safety.</p>
 
                         <p class="social-icons">
                             <a class="socialico-facebook" href="#" title="Facebook" data-toggle="tooltip">#</a>
@@ -776,9 +851,172 @@
 @endsection
 
 @push('css')
+
     <style>
 
+        /* Main section styling */
+        .light_section {
+        padding: 4rem 0;
+        background: #fff;
+        }
+
+        .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        }
+
+        /* Grid layout fixes */
+        #isotope_container.isotope.row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+        width: calc(100% + 30px);
+        }
+
+        .isotope-item-blog {
+        padding: 15px;
+        width: 33.333%;
+        }
+
+        /* Blog post card styling */
+        .post.format-standard.blog-grid {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0 !important;
+        }
+
+        .post-content h3.entry-title-small a {
+            color: white !important;
+        }
+
+        /* Image container */
+        .entry-thumbnail {
+        position: relative;
+        padding-top: 66.67%;
+        overflow: hidden;
+        }
+
+        .entry-thumbnail img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+
+        /* Content area */
+        .post-content {
+        padding: 1.5rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        }
+
+        .entry-title-small {
+        margin: 0 0 1rem;
+        }
+
+        .entry-title-small a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.25rem;
+        font-weight: 600;
+        transition: color 0.2s;
+        }
+
+        .entry-title-small a:hover {
+        color: #e84855;
+        }
+
+        .entry-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        }
+
+        .entry-content p {
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 1.5rem;
+        line-height: 1.6;
+        flex-grow: 1;
+        }
+
+        .entry-content p:last-child {
+        margin-bottom: 0;
+        margin-top: auto;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 991px) {
+            .isotope-item {
+                width: 50%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .isotope-item {
+                width: 100%;
+            }
+
+            .container {
+                padding: 0 20px;
+            }
+
+            .post-content {
+                padding: 1.25rem;
+            }
+        }
+
+        /* Dark theme background for cards */
+        .post.format-standard.blog-grid {
+            background: linear-gradient(135deg, #1e3d59, #2b5278);
+        }
+
+
+        /* the main slider style */
+        h3.counter.counted.animated.fadeInUp {
+            color: white;
+        }
+
+        h4.text-md-right {
+            color: white !important;
+        }
+
+        .statistics-section p,.statistics-section h4 {
+            color: white !important;
+        }
+
+        .flexslider .slides img{
+            filter: brightness(0.7) !important;
+        }
+
+        @media (min-width: 1024px) {
+            .flexslider .slides img {
+                height: 80vh !important;
+                object-fit: cover !important;
+                background-size: cover !important;
+            }
+        }
+
+        .gradient:after, #header:after {
+            opacity: 10 !important;
+            background: #db2450 !important;
+        }
+
+        @media (min-width: 768px) {
+            .sf-menu>li>a:hover, .sf-menu>li.active>a {
+                color: #0f0f0f;
+            }
+        }
     </style>
+
 @endpush
 
 @push('scripts')

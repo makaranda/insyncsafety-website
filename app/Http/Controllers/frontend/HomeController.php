@@ -5,13 +5,16 @@ namespace App\Http\Controllers\frontend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class PagesController extends Controller
+class HomeController extends Controller
 {
-    public function index(Request $request){
+    public function index(Request $request)
+    {
         return view('pages.frontend.home');
     }
 
-    public function commingsoon(Request $request){
+    public function comingSoon()
+    {
+        //echo 'Test';
         return view('pages.commingsoon');
     }
 }

@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 namespace NunoMaduro\Collision\Contracts;
 
+<<<<<<< HEAD
 use Spatie\Ignition\Contracts\Solution;
+=======
+use Spatie\ErrorSolutions\Contracts\Solution;
+>>>>>>> origin/yesen
 use Throwable;
 
 /**

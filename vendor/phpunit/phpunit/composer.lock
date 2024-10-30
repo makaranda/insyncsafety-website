@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "aa5ea99688099980c25ade93362ea9c7",
+=======
+    "content-hash": "3f8433322d9a621495cea3e2c0c1723a",
+>>>>>>> origin/yesen
     "packages": [
         {
             "name": "myclabs/deep-copy",
@@ -68,6 +72,7 @@
         },
         {
             "name": "nikic/php-parser",
+<<<<<<< HEAD
             "version": "v5.2.0",
             "source": {
                 "type": "git",
@@ -78,6 +83,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb",
                 "reference": "23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb",
+=======
+            "version": "v5.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8eea230464783aa9671db8eea6f8c6ac5285794b",
+                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b",
+>>>>>>> origin/yesen
                 "shasum": ""
             },
             "require": {
@@ -120,9 +137,15 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.2.0"
             },
             "time": "2024-09-15T16:40:33+00:00"
+=======
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
+            },
+            "time": "2024-10-08T18:51:32+00:00"
+>>>>>>> origin/yesen
         },
         {
             "name": "phar-io/manifest",
@@ -733,6 +756,7 @@
         },
         {
             "name": "sebastian/comparator",
+<<<<<<< HEAD
             "version": "5.0.2",
             "source": {
                 "type": "git",
@@ -743,6 +767,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2d3e04c3b4c1e84a5e7382221ad8883c8fbc4f53",
                 "reference": "2d3e04c3b4c1e84a5e7382221ad8883c8fbc4f53",
+=======
+            "version": "5.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/comparator.git",
+                "reference": "a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e",
+                "reference": "a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e",
+>>>>>>> origin/yesen
                 "shasum": ""
             },
             "require": {
@@ -753,7 +789,11 @@
                 "sebastian/exporter": "^5.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "phpunit/phpunit": "^10.4"
+=======
+                "phpunit/phpunit": "^10.5"
+>>>>>>> origin/yesen
             },
             "type": "library",
             "extra": {
@@ -798,7 +838,11 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
                 "security": "https://github.com/sebastianbergmann/comparator/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.3"
+>>>>>>> origin/yesen
             },
             "funding": [
                 {
@@ -806,7 +850,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-08-12T06:03:08+00:00"
+=======
+            "time": "2024-10-18T14:56:07+00:00"
+>>>>>>> origin/yesen
         },
         {
             "name": "sebastian/complexity",

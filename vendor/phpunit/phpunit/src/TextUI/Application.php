@@ -74,6 +74,10 @@ use PHPUnit\TextUI\Output\Printer;
 use PHPUnit\TextUI\XmlConfiguration\Configuration as XmlConfiguration;
 use PHPUnit\TextUI\XmlConfiguration\DefaultConfiguration;
 use PHPUnit\TextUI\XmlConfiguration\Loader;
+<<<<<<< HEAD
+=======
+use PHPUnit\Util\Http\PhpDownloader;
+>>>>>>> origin/yesen
 use SebastianBergmann\Timer\Timer;
 use Throwable;
 
@@ -453,7 +457,11 @@ final class Application
         }
 
         if ($cliConfiguration->checkVersion()) {
+<<<<<<< HEAD
             $this->execute(new VersionCheckCommand);
+=======
+            $this->execute(new VersionCheckCommand(new PhpDownloader, Version::majorVersionNumber(), Version::id()));
+>>>>>>> origin/yesen
         }
 
         if ($cliConfiguration->help()) {
