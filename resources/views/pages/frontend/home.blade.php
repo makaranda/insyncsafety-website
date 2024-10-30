@@ -1004,6 +1004,17 @@
                 background-size: cover !important;
             }
         }
+
+        .gradient:after, #header:after {
+            opacity: 10 !important;
+            background: #db2450 !important;
+        }
+
+        @media (min-width: 768px) {
+            .sf-menu>li>a:hover, .sf-menu>li.active>a {
+                color: #0f0f0f;
+            }
+        }
     </style>
 
 @endpush
