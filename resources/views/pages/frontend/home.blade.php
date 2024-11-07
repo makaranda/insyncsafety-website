@@ -100,7 +100,7 @@
     </div>
 </section>
 
-<section class="grey_section bg_image table_section">
+{{-- <section class="grey_section bg_image table_section">
     <div id="team_carousel">
         <div class="item">
             <div class="container-fluid">
@@ -177,7 +177,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <section id="folio" class="light_section bottom_section gallery">
     <div class="container-fluid">
@@ -346,7 +346,7 @@
                 <h3><strong>Do You Like Us?</strong> Contact us today for an evaluation!</h3>
             </div>
             <div class="col-sm-4 to_animate" data-animation="pullDown">
-                <a href="#" class="theme_button inverse">Call Now</a>
+                <a href="tel:0771234567" class="theme_button inverse">Call Now</a>
                 <a href="#" class="theme_button">Contact From</a>
             </div>
 
@@ -721,7 +721,7 @@
     </div>
 </section> --}}
 
-<section id="team" class="light_section bottom_section">
+{{-- <section id="team" class="light_section bottom_section">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center to_animate">
@@ -845,8 +845,7 @@
             </div>
 
     </div>
-</section>
-
+</section> --}}
 
 @endsection
 
