@@ -212,7 +212,11 @@ if [ "$1" == "php" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" "php" "$@")
+=======
         ARGS+=("$APP_SERVICE" "php")
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -222,11 +226,17 @@ elif [ "$1" == "bin" ]; then
     shift 1
 
     if [ "$EXEC" == "yes" ]; then
+<<<<<<< HEAD
+        ARGS+=(exec -u sail)
+        [ ! -t 0 ] && ARGS+=(-T)
+        ARGS+=("$APP_SERVICE" ./vendor/bin/"$@")
+=======
         CMD=$1
         shift 1
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
         ARGS+=("$APP_SERVICE" ./vendor/bin/"$CMD")
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -250,7 +260,11 @@ elif [ "$1" == "composer" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" "composer" "$@")
+=======
         ARGS+=("$APP_SERVICE" "composer")
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -262,7 +276,11 @@ elif [ "$1" == "artisan" ] || [ "$1" == "art" ] || [ "$1" == "a" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" php artisan "$@")
+=======
         ARGS+=("$APP_SERVICE" php artisan)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -274,7 +292,11 @@ elif [ "$1" == "debug" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail -e XDEBUG_TRIGGER=1)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" php artisan "$@")
+=======
         ARGS+=("$APP_SERVICE" php artisan)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -286,7 +308,11 @@ elif [ "$1" == "test" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" php artisan test "$@")
+=======
         ARGS+=("$APP_SERVICE" php artisan test)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -298,7 +324,11 @@ elif [ "$1" == "phpunit" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" php vendor/bin/phpunit "$@")
+=======
         ARGS+=("$APP_SERVICE" php vendor/bin/phpunit)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -310,7 +340,11 @@ elif [ "$1" == "pest" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" php vendor/bin/pest "$@")
+=======
         ARGS+=("$APP_SERVICE" php vendor/bin/pest)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -322,7 +356,11 @@ elif [ "$1" == "pint" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" php vendor/bin/pint "$@")
+=======
         ARGS+=("$APP_SERVICE" php vendor/bin/pint)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -336,7 +374,11 @@ elif [ "$1" == "dusk" ]; then
         [ ! -t 0 ] && ARGS+=(-T)
         ARGS+=(-e "APP_URL=http://${APP_SERVICE}")
         ARGS+=(-e "DUSK_DRIVER_URL=http://selenium:4444/wd/hub")
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" php artisan dusk "$@")
+=======
         ARGS+=("$APP_SERVICE" php artisan dusk)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -350,13 +392,21 @@ elif [ "$1" == "dusk:fails" ]; then
         [ ! -t 0 ] && ARGS+=(-T)
         ARGS+=(-e "APP_URL=http://${APP_SERVICE}")
         ARGS+=(-e "DUSK_DRIVER_URL=http://selenium:4444/wd/hub")
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" php artisan dusk:fails "$@")
+=======
         ARGS+=("$APP_SERVICE" php artisan dusk:fails)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
 
 # Initiate a Laravel Tinker session within the application container...
+<<<<<<< HEAD
+elif [ "$1" == "tinker" ] ; then
+=======
 elif [ "$1" == "tinker" ]; then
+>>>>>>> origin/yesen
     shift 1
 
     if [ "$EXEC" == "yes" ]; then
@@ -374,7 +424,11 @@ elif [ "$1" == "node" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" node "$@")
+=======
         ARGS+=("$APP_SERVICE" node)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -386,7 +440,11 @@ elif [ "$1" == "npm" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" npm "$@")
+=======
         ARGS+=("$APP_SERVICE" npm)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -398,7 +456,11 @@ elif [ "$1" == "npx" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" npx "$@")
+=======
         ARGS+=("$APP_SERVICE" npx)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -410,7 +472,11 @@ elif [ "$1" == "pnpm" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" pnpm "$@")
+=======
         ARGS+=("$APP_SERVICE" pnpm)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -422,7 +488,11 @@ elif [ "$1" == "pnpx" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" pnpx "$@")
+=======
         ARGS+=("$APP_SERVICE" pnpx)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -434,7 +504,11 @@ elif [ "$1" == "yarn" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" yarn "$@")
+=======
         ARGS+=("$APP_SERVICE" yarn)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -446,7 +520,11 @@ elif [ "$1" == "bun" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" bun "$@")
+=======
         ARGS+=("$APP_SERVICE" bun)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -458,7 +536,11 @@ elif [ "$1" == "bunx" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" bunx "$@")
+=======
         ARGS+=("$APP_SERVICE" bunx)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -509,7 +591,11 @@ elif [ "$1" == "shell" ] || [ "$1" == "bash" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u sail)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" bash "$@")
+=======
         ARGS+=("$APP_SERVICE" bash)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
@@ -521,13 +607,21 @@ elif [ "$1" == "root-shell" ] || [ "$1" == "root-bash" ]; then
     if [ "$EXEC" == "yes" ]; then
         ARGS+=(exec -u root)
         [ ! -t 0 ] && ARGS+=(-T)
+<<<<<<< HEAD
+        ARGS+=("$APP_SERVICE" bash "$@")
+=======
         ARGS+=("$APP_SERVICE" bash)
+>>>>>>> origin/yesen
     else
         sail_is_not_running
     fi
 
 # Initiate a Redis CLI terminal session within the "redis" container...
+<<<<<<< HEAD
+elif [ "$1" == "redis" ] ; then
+=======
 elif [ "$1" == "redis" ]; then
+>>>>>>> origin/yesen
     shift 1
 
     if [ "$EXEC" == "yes" ]; then
@@ -575,7 +669,18 @@ elif [ "$1" == "open" ]; then
     else
         sail_is_not_running
     fi
+<<<<<<< HEAD
+
+# Pass unknown commands to the "docker-compose" binary...
+else
+    ARGS+=("$@")
+fi
+
+# Run Docker Compose with the defined arguments...
+"${DOCKER_COMPOSE[@]}" "${ARGS[@]}"
+=======
 fi
 
 # Run Docker Compose with the defined arguments...
 "${DOCKER_COMPOSE[@]}" "${ARGS[@]}" "$@"
+>>>>>>> origin/yesen

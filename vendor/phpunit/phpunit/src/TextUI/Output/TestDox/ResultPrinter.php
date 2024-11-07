@@ -58,6 +58,14 @@ final class ResultPrinter
         }
     }
 
+<<<<<<< HEAD
+    public function flush(): void
+    {
+        $this->printer->flush();
+    }
+
+=======
+>>>>>>> origin/yesen
     /**
      * @psalm-param string $prettifiedClassName
      */

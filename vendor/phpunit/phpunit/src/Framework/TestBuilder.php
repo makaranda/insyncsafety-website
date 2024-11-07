@@ -12,7 +12,10 @@ namespace PHPUnit\Framework;
 use function assert;
 use PHPUnit\Metadata\Api\DataProvider;
 use PHPUnit\Metadata\Api\Groups;
+<<<<<<< HEAD
+=======
 use PHPUnit\Metadata\Api\Requirements;
+>>>>>>> origin/yesen
 use PHPUnit\Metadata\BackupGlobals;
 use PHPUnit\Metadata\BackupStaticProperties;
 use PHPUnit\Metadata\ExcludeGlobalVariableFromBackup;
@@ -38,11 +41,18 @@ final class TestBuilder
     {
         $className = $theClass->getName();
 
+<<<<<<< HEAD
+        $data = (new DataProvider)->providedData(
+            $className,
+            $methodName,
+        );
+=======
         $data = null;
 
         if ($this->requirementsSatisfied($className, $methodName)) {
             $data = (new DataProvider)->providedData($className, $methodName);
         }
+>>>>>>> origin/yesen
 
         if ($data !== null) {
             return $this->buildDataProviderTestSuite(
@@ -270,6 +280,8 @@ final class TestBuilder
     {
         return MetadataRegistry::parser()->forClass($className)->isRunClassInSeparateProcess()->isNotEmpty();
     }
+<<<<<<< HEAD
+=======
 
     /**
      * @psalm-param class-string     $className
@@ -279,4 +291,5 @@ final class TestBuilder
     {
         return (new Requirements)->requirementsNotSatisfiedFor($className, $methodName) === [];
     }
+>>>>>>> origin/yesen
 }

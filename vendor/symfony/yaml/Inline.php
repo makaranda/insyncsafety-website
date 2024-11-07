@@ -353,18 +353,24 @@ class Inline
         ++$i;
 
         // [foo, bar, ...]
+<<<<<<< HEAD
+=======
         $lastToken = null;
+>>>>>>> origin/yesen
         while ($i < $len) {
             if (']' === $sequence[$i]) {
                 return $output;
             }
             if (',' === $sequence[$i] || ' ' === $sequence[$i]) {
+<<<<<<< HEAD
+=======
                 if (',' === $sequence[$i] && (null === $lastToken || 'separator' === $lastToken)) {
                     $output[] = null;
                 } elseif (',' === $sequence[$i]) {
                     $lastToken = 'separator';
                 }
 
+>>>>>>> origin/yesen
                 ++$i;
 
                 continue;
@@ -408,7 +414,10 @@ class Inline
 
             $output[] = $value;
 
+<<<<<<< HEAD
+=======
             $lastToken = 'value';
+>>>>>>> origin/yesen
             ++$i;
         }
 

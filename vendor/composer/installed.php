@@ -1,9 +1,15 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
+<<<<<<< HEAD
+        'pretty_version' => 'v10.3.3',
+        'version' => '10.3.3.0',
+        'reference' => null,
+=======
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
         'reference' => '56db40c5a1bcec12dc9b7ef0cac8ce97ee16d60a',
+>>>>>>> origin/yesen
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -68,9 +74,15 @@
             'dev_requirement' => false,
         ),
         'dragonmantank/cron-expression' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v3.3.3',
+            'version' => '3.3.3.0',
+            'reference' => 'adfb1f505deb6384dc8b39804c5065dd3c8c8c0a',
+=======
             'pretty_version' => 'v3.4.0',
             'version' => '3.4.0.0',
             'reference' => '8c784d071debd117328803d86b2097615b457500',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../dragonmantank/cron-expression',
             'aliases' => array(),
@@ -95,9 +107,15 @@
             'dev_requirement' => true,
         ),
         'filp/whoops' => array(
+<<<<<<< HEAD
+            'pretty_version' => '2.15.4',
+            'version' => '2.15.4.0',
+            'reference' => 'a139776fa3f5985a50b509f2a02ff0f709d2a546',
+=======
             'pretty_version' => '2.16.0',
             'version' => '2.16.0.0',
             'reference' => 'befcdc0e5dce67252aa6322d82424be928214fa2',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../filp/whoops',
             'aliases' => array(),
@@ -131,9 +149,15 @@
             'dev_requirement' => false,
         ),
         'guzzlehttp/promises' => array(
+<<<<<<< HEAD
+            'pretty_version' => '2.0.3',
+            'version' => '2.0.3.0',
+            'reference' => '6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8',
+=======
             'pretty_version' => '2.0.4',
             'version' => '2.0.4.0',
             'reference' => 'f9c436286ab2892c7db7be8c8da4ef61ccf7b455',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/promises',
             'aliases' => array(),
@@ -380,18 +404,30 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v10.3.3',
+            'version' => '10.3.3.0',
+            'reference' => null,
+=======
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'reference' => '56db40c5a1bcec12dc9b7ef0cac8ce97ee16d60a',
+>>>>>>> origin/yesen
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'laravel/pint' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v1.17.3',
+            'version' => '1.17.3.0',
+            'reference' => '9d77be916e145864f10788bb94531d03e1f7b482',
+=======
             'pretty_version' => 'v1.18.1',
             'version' => '1.18.1.0',
             'reference' => '35c00c05ec43e6b46d295efc0f4386ceb30d50d9',
+>>>>>>> origin/yesen
             'type' => 'project',
             'install_path' => __DIR__ . '/../laravel/pint',
             'aliases' => array(),
@@ -407,9 +443,15 @@
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v1.32.0',
+            'version' => '1.32.0.0',
+            'reference' => '4a7e41d280861ca7e35710cea011a07669b4003b',
+=======
             'pretty_version' => 'v1.37.0',
             'version' => '1.37.0.0',
             'reference' => '5d385f2e698f0f774cdead82aff5d989fb95309b',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/sail',
             'aliases' => array(),
@@ -425,18 +467,30 @@
             'dev_requirement' => false,
         ),
         'laravel/serializable-closure' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v1.3.4',
+            'version' => '1.3.4.0',
+            'reference' => '61b87392d986dc49ad5ef64e75b1ff5fee24ef81',
+=======
             'pretty_version' => 'v1.3.5',
             'version' => '1.3.5.0',
             'reference' => '1dc4a3dbfa2b7628a3114e43e32120cce7cdda9c',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/serializable-closure',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'laravel/tinker' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v2.9.0',
+            'version' => '2.9.0.0',
+            'reference' => '502e0fe3f0415d06d5db1f83a472f0f3b754bafe',
+=======
             'pretty_version' => 'v2.10.0',
             'version' => '2.10.0.0',
             'reference' => 'ba4d51eb56de7711b3a37d63aa0643e99a339ae5',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/tinker',
             'aliases' => array(),
@@ -461,27 +515,45 @@
             'dev_requirement' => false,
         ),
         'league/flysystem' => array(
+<<<<<<< HEAD
+            'pretty_version' => '3.28.0',
+            'version' => '3.28.0.0',
+            'reference' => 'e611adab2b1ae2e3072fa72d62c62f52c2bf1f0c',
+=======
             'pretty_version' => '3.29.1',
             'version' => '3.29.1.0',
             'reference' => 'edc1bb7c86fab0776c3287dbd19b5fa278347319',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/flysystem',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'league/flysystem-local' => array(
+<<<<<<< HEAD
+            'pretty_version' => '3.28.0',
+            'version' => '3.28.0.0',
+            'reference' => '13f22ea8be526ea58c2ddff9e158ef7c296e4f40',
+=======
             'pretty_version' => '3.29.0',
             'version' => '3.29.0.0',
             'reference' => 'e0e8d52ce4b2ed154148453d321e97c8e931bd27',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/flysystem-local',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'league/mime-type-detection' => array(
+<<<<<<< HEAD
+            'pretty_version' => '1.15.0',
+            'version' => '1.15.0.0',
+            'reference' => 'ce0f4d1e8a6f4eb0ddff33f57c69c50fd09f4301',
+=======
             'pretty_version' => '1.16.0',
             'version' => '1.16.0.0',
             'reference' => '2d6702ff215bf922936ccc1ad31007edc76451b9',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/mime-type-detection',
             'aliases' => array(),
@@ -530,9 +602,15 @@
             'dev_requirement' => false,
         ),
         'nette/schema' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v1.3.0',
+            'version' => '1.3.0.0',
+            'reference' => 'a6d3a6d1f545f01ef38e60f375d1cf1f4de98188',
+=======
             'pretty_version' => 'v1.3.2',
             'version' => '1.3.2.0',
             'reference' => 'da801d52f0354f70a638673c4a0f04e16529431d',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../nette/schema',
             'aliases' => array(),
@@ -548,27 +626,45 @@
             'dev_requirement' => false,
         ),
         'nikic/php-parser' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v5.2.0',
+            'version' => '5.2.0.0',
+            'reference' => '23c79fbbfb725fb92af9bcf41065c8e9a0d49ddb',
+=======
             'pretty_version' => 'v5.3.1',
             'version' => '5.3.1.0',
             'reference' => '8eea230464783aa9671db8eea6f8c6ac5285794b',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../nikic/php-parser',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'nunomaduro/collision' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v7.10.0',
+            'version' => '7.10.0.0',
+            'reference' => '49ec67fa7b002712da8526678abd651c09f375b2',
+=======
             'pretty_version' => 'v7.11.0',
             'version' => '7.11.0.0',
             'reference' => '994ea93df5d4132f69d3f1bd74730509df6e8a05',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../nunomaduro/collision',
             'aliases' => array(),
             'dev_requirement' => true,
         ),
         'nunomaduro/termwind' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v1.15.1',
+            'version' => '1.15.1.0',
+            'reference' => '8ab0b32c8caa4a2e09700ea32925441385e4a5dc',
+=======
             'pretty_version' => 'v1.16.0',
             'version' => '1.16.0.0',
             'reference' => 'dcf1ec3dfa36137b7ce41d43866644a7ab8fc257',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../nunomaduro/termwind',
             'aliases' => array(),
@@ -647,9 +743,15 @@
             'dev_requirement' => true,
         ),
         'phpunit/phpunit' => array(
+<<<<<<< HEAD
+            'pretty_version' => '10.5.35',
+            'version' => '10.5.35.0',
+            'reference' => '7ac8b4e63f456046dcb4c9787da9382831a1874b',
+=======
             'pretty_version' => '10.5.38',
             'version' => '10.5.38.0',
             'reference' => 'a86773b9e887a67bc53efa9da9ad6e3f2498c132',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
@@ -757,8 +859,13 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
+<<<<<<< HEAD
+                0 => '1.0|2.0|3.0',
+                1 => '3.0.0',
+=======
                 0 => '3.0.0',
                 1 => '1.0|2.0|3.0',
+>>>>>>> origin/yesen
             ),
         ),
         'psr/simple-cache' => array(
@@ -846,9 +953,15 @@
             'dev_requirement' => true,
         ),
         'sebastian/comparator' => array(
+<<<<<<< HEAD
+            'pretty_version' => '5.0.2',
+            'version' => '5.0.2.0',
+            'reference' => '2d3e04c3b4c1e84a5e7382221ad8883c8fbc4f53',
+=======
             'pretty_version' => '5.0.3',
             'version' => '5.0.3.0',
             'reference' => 'a18251eb0b7a2dcd2f7aa3d6078b18545ef0558e',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../sebastian/comparator',
             'aliases' => array(),
@@ -999,18 +1112,30 @@
             'dev_requirement' => true,
         ),
         'symfony/console' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.11',
+            'version' => '6.4.11.0',
+            'reference' => '42686880adaacdad1835ee8fc2a9ec5b7bd63998',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => 'f793dd5a7d9ae9923e35d0503d08ba734cec1d79',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/console',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'symfony/css-selector' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.8',
+            'version' => '6.4.8.0',
+            'reference' => '4b61b02fe15db48e3687ce1c45ea385d1780fe08',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => 'cb23e97813c5837a041b73a6d63a9ddff0778f5e',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/css-selector',
             'aliases' => array(),
@@ -1026,18 +1151,30 @@
             'dev_requirement' => false,
         ),
         'symfony/error-handler' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.10',
+            'version' => '6.4.10.0',
+            'reference' => '231f1b2ee80f72daa1972f7340297d67439224f0',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => 'e3c78742f86a5b65fe2ac4c4b6b776d92fd7ca0c',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/error-handler',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'symfony/event-dispatcher' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.8',
+            'version' => '6.4.8.0',
+            'reference' => '8d7507f02b06e06815e56bb39aa0128e3806208b',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => '0ffc48080ab3e9132ea74ef4e09d8dcf26bf897e',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/event-dispatcher',
             'aliases' => array(),
@@ -1059,45 +1196,75 @@
             ),
         ),
         'symfony/finder' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.11',
+            'version' => '6.4.11.0',
+            'reference' => 'd7eb6daf8cd7e9ac4976e9576b32042ef7253453',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => 'daea9eca0b08d0ed1dc9ab702a46128fd1be4958',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/finder',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'symfony/http-foundation' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.10',
+            'version' => '6.4.10.0',
+            'reference' => '117f1f20a7ade7bcea28b861fb79160a21a1e37b',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => '4c0341b3e0a7291e752c69d2a1ed9a84b68d604c',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/http-foundation',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'symfony/http-kernel' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.11',
+            'version' => '6.4.11.0',
+            'reference' => '1ba6b89d781cb47448155cc70dd2e0f1b0584c79',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => '4474015c363ec0cd3bf47d55657e68630dbae66e',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/http-kernel',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'symfony/mailer' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.9',
+            'version' => '6.4.9.0',
+            'reference' => 'e2d56f180f5b8c5e7c0fbea872bb1f529b6d6d45',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => 'c2f7e0d8d7ac8fe25faccf5d8cac462805db2663',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/mailer',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'symfony/mime' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.11',
+            'version' => '6.4.11.0',
+            'reference' => 'dba5d5f6073baf7a3576b580cc4a208b4ca00553',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => '1de1cf14d99b12c7ebbb850491ec6ae3ed468855',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/mime',
             'aliases' => array(),
@@ -1176,18 +1343,30 @@
             'dev_requirement' => false,
         ),
         'symfony/process' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.8',
+            'version' => '6.4.8.0',
+            'reference' => '8d92dd79149f29e89ee0f480254db595f6a6a2c5',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => '1f9f59b46880201629df3bd950fc5ae8c55b960f',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/process',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'symfony/routing' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.11',
+            'version' => '6.4.11.0',
+            'reference' => '8ee0c24c1bf61c263a26f1b9b6d19e83b1121f2a',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => '640a74250d13f9c30d5ca045b6aaaabcc8215278',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/routing',
             'aliases' => array(),
@@ -1203,18 +1382,30 @@
             'dev_requirement' => false,
         ),
         'symfony/string' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.11',
+            'version' => '6.4.11.0',
+            'reference' => '5bc3eb632cf9c8dbfd6529d89be9950d1518883b',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => '38371c60c71c72b3d64d8d76f6b1bb81a2cc3627',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/string',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'symfony/translation' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.10',
+            'version' => '6.4.10.0',
+            'reference' => '94041203f8ac200ae9e7c6a18fa6137814ccecc9',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => 'bee9bfabfa8b4045a66bf82520e492cddbaffa66',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/translation',
             'aliases' => array(),
@@ -1236,27 +1427,45 @@
             ),
         ),
         'symfony/uid' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.11',
+            'version' => '6.4.11.0',
+            'reference' => '6a0394ad707de386547223948fac1e0f2805bc0b',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => '18eb207f0436a993fffbdd811b5b8fa35fa5e007',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/uid',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'symfony/var-dumper' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.11',
+            'version' => '6.4.11.0',
+            'reference' => 'ee14c8254a480913268b1e3b1cba8045ed122694',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => '2acb151474ed8cb43624e3f41a0bf7c4c8ce4f41',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/var-dumper',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'symfony/yaml' => array(
+<<<<<<< HEAD
+            'pretty_version' => 'v6.4.11',
+            'version' => '6.4.11.0',
+            'reference' => 'be37e7f13195e05ab84ca5269365591edd240335',
+=======
             'pretty_version' => 'v6.4.13',
             'version' => '6.4.13.0',
             'reference' => 'e99b4e94d124b29ee4cf3140e1b537d2dad8cec9',
+>>>>>>> origin/yesen
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/yaml',
             'aliases' => array(),

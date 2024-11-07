@@ -1,7 +1,11 @@
 PHP Cron Expression Parser
 ==========================
 
+<<<<<<< HEAD
+[![Latest Stable Version](https://poser.pugx.org/dragonmantank/cron-expression/v/stable.png)](https://packagist.org/packages/dragonmantank/cron-expression) [![Total Downloads](https://poser.pugx.org/dragonmantank/cron-expression/downloads.png)](https://packagist.org/packages/dragonmantank/cron-expression) [![Build Status](https://secure.travis-ci.org/dragonmantank/cron-expression.png)](http://travis-ci.org/dragonmantank/cron-expression) [![StyleCI](https://github.styleci.io/repos/103715337/shield?branch=master)](https://github.styleci.io/repos/103715337)
+=======
 [![Latest Stable Version](https://poser.pugx.org/dragonmantank/cron-expression/v/stable.png)](https://packagist.org/packages/dragonmantank/cron-expression) [![Total Downloads](https://poser.pugx.org/dragonmantank/cron-expression/downloads.png)](https://packagist.org/packages/dragonmantank/cron-expression) [![Tests](https://github.com/dragonmantank/cron-expression/actions/workflows/tests.yml/badge.svg)](https://github.com/dragonmantank/cron-expression/actions/workflows/tests.yml) [![StyleCI](https://github.styleci.io/repos/103715337/shield?branch=master)](https://github.styleci.io/repos/103715337)
+>>>>>>> origin/yesen
 
 The PHP cron expression parser can parse a CRON expression, determine if it is
 due to run, calculate the next run date of the expression, and calculate the previous
@@ -55,6 +59,25 @@ CRON Expressions
 
 A CRON expression is a string representing the schedule for a particular command to execute.  The parts of a CRON schedule are as follows:
 
+<<<<<<< HEAD
+    *    *    *    *    *
+    -    -    -    -    -
+    |    |    |    |    |
+    |    |    |    |    |
+    |    |    |    |    +----- day of week (0 - 7) (Sunday=0 or 7)
+    |    |    |    +---------- month (1 - 12)
+    |    |    +--------------- day of month (1 - 31)
+    |    +-------------------- hour (0 - 23)
+    +------------------------- min (0 - 59)
+
+This library also supports a few macros:
+
+* `@yearly`, `@annually` - Run once a year, midnight, Jan. 1 - `0 0 1 1 *`
+* `@monthly` - Run once a month, midnight, first of month - `0 0 1 * *`
+* `@weekly` - Run once a week, midnight on Sun - `0 0 * * 0`
+* `@daily`, `@midnight` - Run once a day, midnight - `0 0 * * *`
+* `@hourly` - Run once an hour, first minute - `0 * * * *`
+=======
 ```
 *   *   *   *   *
 -   -   -   -   -
@@ -114,6 +137,7 @@ Day of week extra features:
 	- Every day of week repeats 4-5 times a month. To target the last one, use "last day" feature instead.
 - last day
 	- e.g. `* * * * 7L` - At every minute on the last Sunday.
+>>>>>>> origin/yesen
 
 Requirements
 ============
@@ -127,5 +151,8 @@ Projects that Use cron-expression
 * Part of the [Laravel Framework](https://github.com/laravel/framework/)
 * Available as a [Symfony Bundle - setono/cron-expression-bundle](https://github.com/Setono/CronExpressionBundle)
 * Framework agnostic, PHP-based job scheduler - [Crunz](https://github.com/crunzphp/crunz)
+<<<<<<< HEAD
+=======
 * Framework agnostic job scheduler - with locks, parallelism, per-second scheduling and more - [orisai/scheduler](https://github.com/orisai/scheduler)
 * Explain expression in English (and other languages) with [orisai/cron-expression-explainer](https://github.com/orisai/cron-expression-explainer)
+>>>>>>> origin/yesen

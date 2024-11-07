@@ -1,10 +1,13 @@
 # CHANGELOG
 
+<<<<<<< HEAD
+=======
 ## v2.16.0
 
 * Support PHP `8.4`.
 * Drop support for PHP older than `7.1`.
 
+>>>>>>> origin/yesen
 ## v2.15.4
 
 * Improve link color in comments.

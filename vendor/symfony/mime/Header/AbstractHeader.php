@@ -188,6 +188,8 @@ abstract class AbstractHeader implements HeaderInterface
             $tokens[] = $encodedToken;
         }
 
+<<<<<<< HEAD
+=======
         foreach ($tokens as $i => $token) {
             // whitespace(s) between 2 encoded tokens
             if (
@@ -202,6 +204,7 @@ abstract class AbstractHeader implements HeaderInterface
             }
         }
 
+>>>>>>> origin/yesen
         return $tokens;
     }
 

@@ -2,6 +2,8 @@
 
 All notable changes of the PHPUnit 10.5 release series are documented in this file using the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
 
+<<<<<<< HEAD
+=======
 ## [10.5.38] - 2024-10-28
 
 ### Changed
@@ -26,6 +28,7 @@ All notable changes of the PHPUnit 10.5 release series are documented in this fi
 
 * [#5965](https://github.com/sebastianbergmann/phpunit/issues/5965): `PHPUnit\Framework\Exception` does not handle string error codes (`PDOException` with error code `'HY000'`, for example)
 
+>>>>>>> origin/yesen
 ## [10.5.35] - 2024-09-19
 
 ### Changed
@@ -346,9 +349,12 @@ All notable changes of the PHPUnit 10.5 release series are documented in this fi
 
 * [#5563](https://github.com/sebastianbergmann/phpunit/issues/5563): `createMockForIntersectionOfInterfaces()` does not automatically register mock object for expectation verification
 
+<<<<<<< HEAD
+=======
 [10.5.38]: https://github.com/sebastianbergmann/phpunit/compare/10.5.37...10.5.38
 [10.5.37]: https://github.com/sebastianbergmann/phpunit/compare/10.5.36...10.5.37
 [10.5.36]: https://github.com/sebastianbergmann/phpunit/compare/10.5.35...10.5.36
+>>>>>>> origin/yesen
 [10.5.35]: https://github.com/sebastianbergmann/phpunit/compare/10.5.34...10.5.35
 [10.5.34]: https://github.com/sebastianbergmann/phpunit/compare/10.5.33...10.5.34
 [10.5.33]: https://github.com/sebastianbergmann/phpunit/compare/10.5.32...10.5.33

@@ -1,6 +1,8 @@
 # CHANGELOG
 
 
+<<<<<<< HEAD
+=======
 ## 2.0.4 - 2024-10-17
 
 ### Fixed
@@ -8,6 +10,7 @@
 - Once settled, don't allow further rejection of additional promises
 
 
+>>>>>>> origin/yesen
 ## 2.0.3 - 2024-07-18
 
 ### Changed

@@ -65,6 +65,12 @@ final class MigrationBuilder
         ],
     ];
 
+<<<<<<< HEAD
+    /**
+     * @throws MigrationBuilderException
+     */
+=======
+>>>>>>> origin/yesen
     public function build(string $fromVersion): array
     {
         $stack = [new UpdateSchemaLocation];

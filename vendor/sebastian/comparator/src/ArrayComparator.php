@@ -9,6 +9,10 @@
  */
 namespace SebastianBergmann\Comparator;
 
+<<<<<<< HEAD
+use function array_is_list;
+=======
+>>>>>>> origin/yesen
 use function array_key_exists;
 use function assert;
 use function is_array;
@@ -39,8 +43,18 @@ class ArrayComparator extends Comparator
         assert(is_array($actual));
 
         if ($canonicalize) {
+<<<<<<< HEAD
+            if (array_is_list($expected)) {
+                sort($expected);
+            }
+
+            if (array_is_list($actual)) {
+                sort($actual);
+            }
+=======
             sort($expected);
             sort($actual);
+>>>>>>> origin/yesen
         }
 
         $remaining        = $actual;

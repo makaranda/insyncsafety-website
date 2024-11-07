@@ -7,10 +7,17 @@ minio:
         MINIO_ROOT_USER: 'sail'
         MINIO_ROOT_PASSWORD: 'password'
     volumes:
+<<<<<<< HEAD
+        - 'sail-minio:/data/minio'
+    networks:
+        - sail
+    command: minio server /data/minio --console-address ":8900"
+=======
         - 'sail-minio:/data'
     networks:
         - sail
     command: minio server /data --console-address ":8900"
+>>>>>>> origin/yesen
     healthcheck:
         test: ["CMD", "mc", "ready", "local"]
         retries: 3

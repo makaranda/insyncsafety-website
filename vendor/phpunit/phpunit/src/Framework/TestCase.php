@@ -513,7 +513,11 @@ abstract class TestCase extends Assert implements Reorderable, SelfDescribing, T
             return;
         }
 
+<<<<<<< HEAD
+        if (!$this->shouldRunInSeparateProcess()) {
+=======
         if (!$this->shouldRunInSeparateProcess() || $this->requirementsNotSatisfied()) {
+>>>>>>> origin/yesen
             (new TestRunner)->run($this);
         } else {
             (new TestRunner)->runInSeparateProcess(
@@ -2310,11 +2314,14 @@ abstract class TestCase extends Assert implements Reorderable, SelfDescribing, T
         return is_string($this->outputExpectedString) || is_string($this->outputExpectedRegex);
     }
 
+<<<<<<< HEAD
+=======
     private function requirementsNotSatisfied(): bool
     {
         return (new Requirements)->requirementsNotSatisfiedFor(static::class, $this->name) !== [];
     }
 
+>>>>>>> origin/yesen
     /**
      * Creates a test stub for the specified interface or class.
      *

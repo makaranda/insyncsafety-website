@@ -22,6 +22,10 @@ final class Migrator
 {
     /**
      * @throws Exception
+<<<<<<< HEAD
+     * @throws MigrationBuilderException
+=======
+>>>>>>> origin/yesen
      * @throws MigrationException
      * @throws XmlException
      */
@@ -30,7 +34,11 @@ final class Migrator
         $origin = (new SchemaDetector)->detect($filename);
 
         if (!$origin->detected()) {
+<<<<<<< HEAD
+            throw new Exception('The file does not validate against any know schema');
+=======
             throw new Exception('The file does not validate against any known schema');
+>>>>>>> origin/yesen
         }
 
         if ($origin->version() === Version::series()) {

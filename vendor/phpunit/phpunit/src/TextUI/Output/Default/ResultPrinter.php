@@ -146,6 +146,14 @@ final class ResultPrinter
         }
     }
 
+<<<<<<< HEAD
+    public function flush(): void
+    {
+        $this->printer->flush();
+    }
+
+=======
+>>>>>>> origin/yesen
     private function printPhpunitErrors(TestResult $result): void
     {
         if (!$result->hasTestTriggeredPhpunitErrorEvents()) {

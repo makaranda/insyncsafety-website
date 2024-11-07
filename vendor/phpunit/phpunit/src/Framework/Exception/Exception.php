@@ -11,8 +11,11 @@ namespace PHPUnit\Framework;
 
 use function array_keys;
 use function get_object_vars;
+<<<<<<< HEAD
+=======
 use function is_int;
 use function sprintf;
+>>>>>>> origin/yesen
 use RuntimeException;
 use Throwable;
 
@@ -44,6 +47,10 @@ class Exception extends RuntimeException implements \PHPUnit\Exception
 {
     protected array $serializableTrace;
 
+<<<<<<< HEAD
+    public function __construct(string $message = '', int $code = 0, ?Throwable $previous = null)
+    {
+=======
     public function __construct(string $message = '', int|string $code = 0, ?Throwable $previous = null)
     {
         /**
@@ -58,6 +65,7 @@ class Exception extends RuntimeException implements \PHPUnit\Exception
             $code = 0;
         }
 
+>>>>>>> origin/yesen
         parent::__construct($message, $code, $previous);
 
         $this->serializableTrace = $this->getTrace();

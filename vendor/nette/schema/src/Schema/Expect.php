@@ -24,6 +24,10 @@ use Nette\Schema\Elements\Type;
  * @method static Type float($default = null)
  * @method static Type bool($default = null)
  * @method static Type null()
+<<<<<<< HEAD
+ * @method static Type array($default = [])
+=======
+>>>>>>> origin/yesen
  * @method static Type list($default = [])
  * @method static Type mixed($default = null)
  * @method static Type email($default = null)
@@ -55,11 +59,19 @@ final class Expect
 
 
 	/**
+<<<<<<< HEAD
+	 * @param  Schema[]  $items
+	 */
+	public static function structure(array $items): Structure
+	{
+		return new Structure($items);
+=======
 	 * @param  Schema[]  $shape
 	 */
 	public static function structure(array $shape): Structure
 	{
 		return new Structure($shape);
+>>>>>>> origin/yesen
 	}
 
 
@@ -94,6 +106,9 @@ final class Expect
 	}
 
 
+<<<<<<< HEAD
+	public static function arrayOf(string|Schema $valueType, string|Schema $keyType = null): Type
+=======
 	/**
 	 * @param  mixed[]  $shape
 	 */
@@ -106,6 +121,7 @@ final class Expect
 
 
 	public static function arrayOf(string|Schema $valueType, string|Schema|null $keyType = null): Type
+>>>>>>> origin/yesen
 	{
 		return (new Type('array'))->items($valueType, $keyType);
 	}

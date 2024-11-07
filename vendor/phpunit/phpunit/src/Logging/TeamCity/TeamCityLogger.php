@@ -296,7 +296,11 @@ final class TeamCityLogger
     {
         $this->printer->print(
             sprintf(
+<<<<<<< HEAD
+                "\n##teamcity[%s",
+=======
                 '##teamcity[%s',
+>>>>>>> origin/yesen
                 $eventName,
             ),
         );

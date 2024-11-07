@@ -48,7 +48,11 @@ class CollisionServiceProvider extends ServiceProvider
 
                     $solutionsRepository = new IgnitionSolutionsRepository($solutionProviderRepository);
                 } else {
+<<<<<<< HEAD
+                    $solutionsRepository = new NullSolutionsRepository();
+=======
                     $solutionsRepository = new NullSolutionsRepository;
+>>>>>>> origin/yesen
                 }
 
                 $writer = new Writer($solutionsRepository);

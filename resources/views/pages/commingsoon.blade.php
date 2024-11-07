@@ -67,7 +67,7 @@
 	                </div><!-- /.logo -->
 
 	                <div class="mb-50">
-	                    <h1 class="intro-title black-text text-uppercase">Coming soon</h1>
+	                    <h1 class="intro-title black-text text-uppercase">Comming soon</h1>
 	                    <p class="sub-intro lead text-dark">An awesome new company for web resources is coming very soon. Enter your email to request an early invitation!</p>
 	                </div>
 

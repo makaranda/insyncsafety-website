@@ -7,4 +7,10 @@ namespace NunoMaduro\Collision\Contracts;
 /**
  * @internal
  */
+<<<<<<< HEAD
+interface RenderlessEditor
+{
+}
+=======
 interface RenderlessEditor {}
+>>>>>>> origin/yesen
