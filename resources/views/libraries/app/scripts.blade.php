@@ -26,7 +26,8 @@
         <script src="{{ url('public/assets/js/vendor/jquery.isotope.min.js') }}"></script>
         <script src="{{ url('public/assets/js/vendor/owl.carousel.min.js') }}"></script>
         <script src="{{ url('public/assets/js/vendor/jquery.flexslider-min.js') }}"></script>
-
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> --}}
+        {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> --}}
         <!-- custom scripts -->
         <script src="{{ url('public/assets/js/plugins.js') }}"></script>
         <script src="{{ url('public/assets/js/main.js') }}?v={{ date('is') }}"></script>

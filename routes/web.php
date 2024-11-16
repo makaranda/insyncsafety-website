@@ -28,6 +28,7 @@ Route::get('/contact-us', [HomeController::class, 'contact'])->name('pages.conta
 
 Route::prefix('products')->group(function () {
     Route::get('/', [HomeController::class, 'products'])->name('pages.products');
+    Route::get('/fetch-products', [HomeController::class, 'fetchProducts'])->name('pages.fetchpoducts');
     Route::get('/{slug}',[HomeController::class,'singleProduct'])->where('slug', '[a-zA-Z0-9-]+')->name('pages.singleproduct');
     Route::get('/category/{category-slug}',[HomeController::class,'categoryList'])->name('pages.categoryList');
 });

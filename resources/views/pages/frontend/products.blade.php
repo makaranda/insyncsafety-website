@@ -28,29 +28,13 @@
         <div class="row">
             <div class="col-sm-12">
 
-                <div id="isotope_container" class="isotope row masonry-layout">
-                    <div class="isotope-item col-md-4 col-sm-6">
-                        <article class="post format-standard blog-grid">
-                            <div class="entry-thumbnail">
-                                <img alt="" src="example/gallery/01.jpg">
-                            </div>
-                            <div class="post-content">
-                                <h3 class="entry-title-small">
-                                    <a href="blog-single-right.html" rel="bookmark">Consetetur sadipscing</a>
-                                </h3>
+                <div id="list_products" class="isotope row masonry-layout">
+                    {{-- @if($products)
+                        @foreach ($products as $product)
 
-                                <div class="entry-content">
-                                    <p>Nam tempor doming quod mazim placerat cusoluta nobislefend option congue nihiiperdiet doming quod mazim placerat doming quod mazim facer.</p>
-                                    <p>
-                                        <a href="blog-single-right.html" class="theme_button">Read More</a>
-                                    </p>
-                                </div>
-                                <!-- .entry-content -->
 
-                            </div><!-- .post-content -->
-                        </article>
-                        <!-- .post -->
-                    </div>
+                        @endforeach
+                    @endif --}}
                 </div>
             </div>
         </div>
@@ -230,7 +214,41 @@
 
 @push('scripts')
     <script>
+    products_lists();
+    function products_lists(page = 1, customer_id = null) {
+        //$('#overlay').show();
+        $.ajax({
+            url: "{{ route('pages.fetchpoducts') }}",
+            cache: false,
+            data: {
+                'page': page,
+            },
+            type: 'GET',
+            success : function(response) {
+                //console.log('Success: '+response.html);
+                //$('#overlay').hide();
+                $('#list_products').html(response.html);
 
+                bindPaginationLinks();
+            },
+            error: function(xhr, status, error) {
+                console.error("Error getting data!", xhr, status, error);
+                //$('#overlay').hide();
+            }
+        });
+    }
+
+    // Function to handle pagination link clicks
+    function bindPaginationLinks() {
+        $(document).on('click', '.pagination a', function (e) {
+            e.preventDefault();
+            var page = $(this).attr('href').split('page=')[1]; // Get the page number from the URL
+            products_lists(page); // Fetch products for the selected page
+        });
+    }
+
+    // Call the function initially
+    bindPaginationLinks();
     </script>
 @endpush
 

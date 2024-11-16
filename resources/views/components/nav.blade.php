@@ -1,5 +1,5 @@
 <!-- Font Awesome 4.7 CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-Sf6Y+jTfF9sK4iSOoGBlE/aD4U7BVCFuPl3DXJs1Uds4p8dT5A3fl5B/s4m3rwmdcnD4nN+P3y4jgj9+MjKu5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 <div id="box_wrapper">
 
