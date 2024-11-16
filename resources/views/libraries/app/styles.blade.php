@@ -1,3 +1,4 @@
+<link rel="icon" sizes="64x21" href="{{ url('public/assets/img/insyncsafety_favicon.jpg') }}"/>
 <link rel="stylesheet" href="{{ url('public/assets/css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="{{ url('public/assets/css/main.css') }}?v={{ date('is') }}" id="color-switcher-link">
 <link rel="stylesheet" href="{{ url('public/assets/css/animations.css') }}">

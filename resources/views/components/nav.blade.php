@@ -32,13 +32,13 @@
             <div class="row">
                 <div class="col-sm-12">
                     <nav id="mainmenu_wrapper">
-                        <a class="navbar-brand" href="#"><img src="{{ url('public/assets/img/insyncsafety_logo.jpg') }}" alt=""></a>
+                        <a class="navbar-brand" href="{{ route('pages.home') }}"><img src="{{ url('public/assets/img/insyncsafety_logo.jpg') }}" alt=""></a>
                         <ul id="mainmenu" class="nav sf-menu">
-                            <li class="active">
-                                <a href="#home">Home</a>
+                            <li class="{{ request()->routeIs('pages.home') ? 'active' : '' }}">
+                                <a href="{{ route('pages.home') }}">Home</a>
                             </li>
-                            <li>
-                                <a href="#products">Products</a>
+                            <li class="{{ request()->routeIs('pages.products') || request()->routeIs('pages.categoryList') || request()->routeIs('pages.singleproduct') ? 'active' : '' }}">
+                                <a href="{{ route('pages.products') }}">Products</a>
                                 <ul>
                                     <li><a href="personal_protection.html">Personal Protection</a></li>
                                     <li><a href="industrial_protection.html">Industrial Safety</a></li>
@@ -48,19 +48,19 @@
                                     <li><a href="environmental_protection.html">Environmental Protection</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="about.html">About Us</a>
+                            <li class="{{ request()->routeIs('pages.about') ? 'active' : '' }}">
+                                <a href="{{ route('pages.about') }}">About Us</a>
                             </li>
-                            <li>
-                                <a href="#services">Services</a>
+                            <li class="{{ request()->routeIs('pages.services*') ? 'active' : '' }}">
+                                <a href="">Services</a>
                                 <ul>
                                     <li><a href="consultation.html">Consultation</a></li>
                                     <li><a href="training.html">Training & Support</a></li>
                                     <li><a href="technical_support.html">Technical Support</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
+                            <li class="{{ request()->routeIs('pages.contact') ? 'active' : '' }}">
+                                <a href="{{ route('pages.contact') }}">Contact</a>
                             </li>
                         </ul>
                     </nav>

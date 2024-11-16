@@ -164,3 +164,16 @@
     background-color: #a51518;
     color: #fff;
 }
+
+.form-control {
+    height: 40px;
+    border-color: rgba(0, 0, 0, .1);
+    background-color: #fff;
+    border-radius: 0;
+    color: #000;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+}

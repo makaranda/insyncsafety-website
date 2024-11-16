@@ -20,6 +20,7 @@ class Products extends Model
         'remarks',
         'country',
         'brand',
+        'status',
     ];
 
     public function categories()
