@@ -34,9 +34,11 @@
                     <nav id="mainmenu_wrapper">
                         <a class="navbar-brand" href="{{ route('pages.home') }}"><img src="{{ url('public/assets/img/insyncsafety_logo.jpg') }}" alt=""></a>
                         <ul id="mainmenu" class="nav sf-menu">
+
                             <li class="{{ request()->routeIs('pages.home') ? 'active' : '' }}">
                                 <a href="{{ route('pages.home') }}">Home</a>
                             </li>
+
                             <li class="{{ request()->routeIs('pages.products') || request()->routeIs('pages.categoryList') || request()->routeIs('pages.singleproduct') ? 'active' : '' }}">
                                 <a href="{{ route('pages.products') }}">Products</a>
                                 <ul>
@@ -46,17 +48,18 @@
                                 @endforeach
                                 </ul>
                             </li>
+
                             <li class="{{ request()->routeIs('pages.about') ? 'active' : '' }}">
                                 <a href="{{ route('pages.about') }}">About Us</a>
                             </li>
-                            <li class="{{ request()->routeIs('pages.services*') ? 'active' : '' }}">
+                            {{-- <li class="{{ request()->routeIs('pages.services*') ? 'active' : '' }}">
                                 <a href="">Services</a>
                                 <ul>
                                     <li><a href="consultation.html">Consultation</a></li>
                                     <li><a href="training.html">Training & Support</a></li>
                                     <li><a href="technical_support.html">Technical Support</a></li>
                                 </ul>
-                            </li>
+                            </li> --}}
                             <li class="{{ request()->routeIs('pages.contact') ? 'active' : '' }}">
                                 <a href="{{ route('pages.contact') }}">Contact</a>
                             </li>
