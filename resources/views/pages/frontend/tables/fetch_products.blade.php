@@ -13,7 +13,7 @@
             </div>
             <div class="post-content">
                 <h3 class="entry-title-small">
-                    <a href="blog-single-right.html" rel="bookmark">{{ $product->title }}</a>
+                    <a href="{{ route('pages.singleproduct',$product->slug) }}" rel="bookmark">{{ $product->title }}</a>
                 </h3>
 
                 <div class="entry-content">

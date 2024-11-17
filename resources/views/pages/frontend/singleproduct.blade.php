@@ -130,7 +130,7 @@
                 </aside>
 
                 <div class="col-12 col-md-12">
-                    <div class="widget widget_popular_entries">
+                    <div class="widget widget_popular_entries" id="related_products">
                         <h3 class="widget-title">Related Products</h3>
                         <div class="owl-carousel">
                             @foreach ($random_products as $random_product)
@@ -145,7 +145,7 @@
                                         <div class="col-12 col-md-12">
                                             <p class="post-date media-heading">{{ \Carbon\Carbon::parse($random_product->created_at)->format('F j, Y') }}</p>
                                             <p>
-                                                <a href="{{ route('pages.singleproduct',$random_product->slug) }}">{{ \Illuminate\Support\Str::limit($random_product->title, 25, '...') }}</a>
+                                                <a href="{{ route('pages.singleproduct',$random_product->slug) }}">{{ \Illuminate\Support\Str::limit($random_product->title, 15, '...') }}</a>
                                             </p>
                                         </div>
                                     </div>

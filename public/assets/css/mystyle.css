@@ -158,6 +158,10 @@
 .theme_button {
     border: 1px solid #a51518;
     background-color: #f90005;
+    &:hover{
+        background-color: #7e0002 !important;
+        border: 1px solid #fff !important;
+    }
 }
 
 .gallery-big-item-description>a {
@@ -218,4 +222,26 @@ p {
     right: 22px;
     padding: 8px;
     background-color: brown;
+}
+
+article.post .entry-content p {
+    text-align: center;
+}
+
+.post.format-standard.blog-grid {
+    box-shadow: 0px 0px 10px 0px #0000007a !important;
+}
+
+.post-content {
+    background-color: #01010152;
+}
+
+#related_products{
+    .owl-item{
+        .item{
+            margin: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 9px 0px #ccc;
+        }
+    }
 }

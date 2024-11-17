@@ -34,8 +34,37 @@ class HomeController extends Controller
 
     public function products(Request $request){
         $products = Products::where('status',1)->get();
-        return view('pages.frontend.products', compact('products'));
+        $category = '';
+        $categoryName = '';
+        return view('pages.frontend.products', compact('products','category'));
     }
+
+    public function categoryList(Request $request, $category_name)
+    {
+        // Format the category name
+        $categoryName = ucwords(str_replace('-', ' ', $category_name));
+
+        // Fetch the category
+        $category = Categories::where('status', 1)
+            ->where('name', 'LIKE', '%' . $categoryName . '%')
+            ->first();
+        //dd($category);
+        // If category not found, return 404
+        if (!$category) {
+            return response()->json(['message' => 'Category not found'], 404);
+        }
+
+        // Fetch products for the category
+        $category_id = $category->id;
+        $products = Products::where('status', 1)
+            ->where('category_id', $category_id)
+            ->get();
+
+        //dd($products);
+        // Return the view with products
+        return view('pages.frontend.products', compact('products', 'category'));
+    }
+
 
     public function singleProduct(Request $request,$slug){
         $random_products = Products::where('status',1)->inRandomOrder()->limit(120)->get();
@@ -51,11 +80,11 @@ class HomeController extends Controller
         $query = Products::query();
         //$getAllRoutePermisssions = AcAccounts::all();
         //s_code s_name s_status s_type search_customer_id
-        if ($request->has('customer_id') && $request->customer_id != '') {
-            $query->where('from_customer_id', '=', '' . $request->customer_id . '');
+        if ($request->has('category_id') && $request->category_id != '') {
+            $query->where('category_id', '=', $request->category_id);
         }
 
-        // $query->where('status', 1);
+        $query->where('status', 1);
 
         $query->orderBy('id', 'DESC');
         $query->limit(120);

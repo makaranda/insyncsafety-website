@@ -40,12 +40,10 @@
                             <li class="{{ request()->routeIs('pages.products') || request()->routeIs('pages.categoryList') || request()->routeIs('pages.singleproduct') ? 'active' : '' }}">
                                 <a href="{{ route('pages.products') }}">Products</a>
                                 <ul>
-                                    <li><a href="personal_protection.html">Personal Protection</a></li>
-                                    <li><a href="industrial_protection.html">Industrial Safety</a></li>
-                                    <li><a href="lifeline.html">Lifeline & Work at Height Solutions</a></li>
-                                    <li><a href="spill_control.html">Spill Control & Management</a></li>
-                                    <li><a href="containment.html">Safety Containment Systems</a></li>
-                                    <li><a href="environmental_protection.html">Environmental Protection</a></li>
+                                @foreach ($random_categories as $random_category)
+                                    <li><a href="{{ route('pages.categoryList',\Illuminate\Support\Str::slug($random_category->name)) }}">{{ $random_category->name }}</a>
+                                    </li>
+                                @endforeach
                                 </ul>
                             </li>
                             <li class="{{ request()->routeIs('pages.about') ? 'active' : '' }}">

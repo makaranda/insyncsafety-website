@@ -9,10 +9,18 @@
             <div class="col-sm-12 text-center">
                 <h1><strong>Products</strong></h1>
                 <ol class="breadcrumb">
-                    <li>
-                        <a href="{{ route('pages.home') }}">Home</a>
-                    </li>
-                    <li class="active">Products</li>
+                        <li>
+                            <a href="{{ route('pages.home') }}">Home</a>
+                        </li>
+                    @if (is_object($category) && ($category->id || $category->name))
+                        <li>
+                            <a href="{{ route('pages.products') }}">Products</a>
+                        </li>
+                        <li class="active">{{ $category->name ?? 'Unnamed Category' }}</li>
+                    @else
+                        <li class="active">Products</li>
+                    @endif
+
                 </ol>
             </div>
 
@@ -27,7 +35,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-
+                <input type="hidden" name="category_id" id="category_id" value="{{ $category->id ?? '' }}">
                 <div id="list_products" class="isotope row masonry-layout">
                     {{-- @if($products)
                         @foreach ($products as $product)
@@ -215,17 +223,18 @@
 @push('scripts')
     <script>
     products_lists();
-    function products_lists(page = 1, customer_id = null) {
+    function products_lists(page = 1, category_id = null) {
         //$('#overlay').show();
+        category_id = category_id || $('#category_id').val() || '';
         $.ajax({
             url: "{{ route('pages.fetchpoducts') }}",
             cache: false,
             data: {
-                'page': page,
+                'page': page,'category_id': category_id
             },
             type: 'GET',
             success : function(response) {
-                //console.log('Success: '+response.html);
+                console.log('Success: '+response.testQuery);
                 //$('#overlay').hide();
                 $('#list_products').html(response.html);
 
