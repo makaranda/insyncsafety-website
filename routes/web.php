@@ -36,6 +36,7 @@ Route::middleware(['share.random.categories'])->group(function () {
 
 Route::get('/clear-cache', function () {
     Artisan::call('config:clear');
+    Artisan::call('route:clear');
     Artisan::call('cache:clear');
     Artisan::call('view:clear');
     return "Cache cleared!";
