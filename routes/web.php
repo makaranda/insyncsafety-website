@@ -17,6 +17,7 @@ use App\Http\Controllers\frontend\HomeController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
 Route::middleware(['share.random.categories'])->group(function () {
     // Route for the coming soon page with both GET and POST methods
     Route::match(['get', 'post'], '/', [HomeController::class, 'comingSoon'])->name('pages.comingsoon');
