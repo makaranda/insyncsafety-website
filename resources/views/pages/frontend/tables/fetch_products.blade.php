@@ -12,6 +12,7 @@
                 <img alt="{{ $product->title }}" src="{{ url('public/assets/products/').'/'.$product->image }}"/>
             </div>
             <div class="post-content">
+
                 <h3 class="entry-title-small">
                     <a href="{{ route('pages.singleproduct',$product->slug) }}" rel="bookmark">{{ $product->title }}</a>
                 </h3>

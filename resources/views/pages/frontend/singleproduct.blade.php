@@ -118,6 +118,7 @@
 
                     <div class="widget widget_categories">
                         <h3 class="widget-title">Categories</h3>
+
                         <ul>
                             @foreach ($random_categories as $random_category)
                                 <li>
