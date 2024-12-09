@@ -36,6 +36,7 @@ class HomeController extends Controller
         $products = Products::where('status',1)->get();
         $category = '';
         $categoryName = '';
+
         return view('pages.frontend.products', compact('products','category'));
     }
 
@@ -93,7 +94,6 @@ class HomeController extends Controller
         //$fetchTableDetails = Currencies::all();
 
         $responses = '';
-
         $debit_total = 0;
         $credit_total = 0;
 
