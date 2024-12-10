@@ -49,6 +49,7 @@ class HomeController extends Controller
         $category = Categories::where('status', 1)
             ->where('name', 'LIKE', '%' . $categoryName . '%')
             ->first();
+
         //dd($category);
         // If category not found, return 404
         if (!$category) {
