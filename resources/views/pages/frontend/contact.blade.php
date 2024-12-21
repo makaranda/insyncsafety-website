@@ -48,7 +48,8 @@
 
         <div class="row">
             <div class="col-sm-6 col-sm-push-3 to_animate">
-                <form class="contact-form" method="post" action="#">
+                <form class="contact-form" method="post" id="contactForm" action="#">
+                    @csrf
                     <p class="contact-form-name">
                         <label for="name">Full Name <span class="required">*</span></label>
                         <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control text-center" placeholder="Name">
@@ -61,6 +62,7 @@
                         <label for="message">Message</label>
                         <textarea aria-required="true" rows="8" cols="45" name="message" id="message" class="form-control text-center" placeholder="Message"></textarea>
                     </p>
+                    <p><div class="g-recaptcha" data-sitekey="6LcdaaIqAAAAAJhquSWuLD7j3VyLCUJEphmjXqI3"></div></p>
                     <p class="contact-form-submit text-center topmargin40">
                         <button type="reset" class="theme_button inverse">Clear Fields</button>
                         <button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button"> Send Message</button>
@@ -243,6 +245,7 @@
 @endpush
 
 @push('scripts')
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
 
     </script>
