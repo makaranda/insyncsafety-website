@@ -26,6 +26,7 @@ Route::middleware(['share.random.categories'])->group(function () {
     Route::get('/home', [HomeController::class, 'index'])->name('pages.home');
     Route::get('/about-us', [HomeController::class, 'about'])->name('pages.about');
     Route::get('/contact-us', [HomeController::class, 'contact'])->name('pages.contact');
+    Route::post('/contact-submit', [HomeController::class, 'contactSubmit'])->name('pages.contactsubmit');
 
     Route::prefix('products')->group(function () {
         Route::get('/', [HomeController::class, 'products'])->name('pages.products');

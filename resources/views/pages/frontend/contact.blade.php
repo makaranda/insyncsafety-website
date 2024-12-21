@@ -247,7 +247,72 @@
 @push('scripts')
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
+    $('#contactForm').parsley();
+    $('#contactForm').on('submit', function(event){
+        event.preventDefault();
 
+        // Get reCAPTCHA response
+    var recaptchaResponse = grecaptcha.getResponse();
+
+    if (recaptchaResponse.length === 0) {
+        Swal.fire({
+            position: "bottom-end",
+            icon: "error",
+            title: "Please complete the reCAPTCHA.",
+            showConfirmButton: false,
+            timer: 2500
+        });
+        return;
+    }
+
+        var form_type = '';
+        form_type = '{{ route("pages.contactsubmit") }}';
+
+        var formData = new FormData(this);
+        formData.append('_token', '{{ csrf_token() }}');
+        formData.append('g-recaptcha-response', recaptchaResponse);
+
+        $.ajax({
+            url : form_type,
+            cache: false,
+            data: formData,
+            type: 'POST',
+            dataType: 'json',
+            contentType: false,
+            processData: false,
+            success : function(response) {
+                console.log(response);
+
+                $('#contactForm').parsley().reset();
+                $('#contactForm')[0].reset();
+
+                Swal.fire({
+                    position: "bottom-end",
+                    icon: response.messageType === 'success' ? "success" : "error",
+                    title: response.message,
+                    showConfirmButton: false,
+                    timer: response.messageType === 'success' ? 4000 : 2500
+                });
+
+                grecaptcha.reset();
+            },
+            error: function(xhr, status, error) {
+                console.log("Error getting request ! \n", xhr, status, error);
+
+                Swal.fire({
+                    position: "bottom-end",
+                    icon: "error",
+                    title: "An error occurred. Please try again.",
+                    showConfirmButton: false,
+                    timer: 2500
+                });
+
+                // Reset the reCAPTCHA widget
+                grecaptcha.reset();
+            }
+        });
+
+    });
     </script>
 @endpush
 

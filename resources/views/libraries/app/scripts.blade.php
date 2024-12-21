@@ -31,4 +31,7 @@
         <!-- custom scripts -->
         <script src="{{ url('public/assets/js/plugins.js') }}"></script>
         <script src="{{ url('public/assets/js/parsley.js') }}"></script>
+        <!-- Sweet Alert -->
+        <script src="{{ url('public/assets/js/sweetalert.min.js')}}"></script>
+
         <script src="{{ url('public/assets/js/main.js') }}?v={{ date('is') }}"></script>
